@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible OfferMe problem.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use synthetic examples. Do not attach keys, private resumes, recordings or a complete application profile."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS version, CPU architecture, OfferMe version, source or packaged build.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and reviewed diagnostics
+      description: For audio issues, distinguish provider test, input signal, transcript and answer results. Remove sensitive details.
+    validations:
+      required: true

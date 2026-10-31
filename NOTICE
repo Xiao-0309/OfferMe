@@ -1,0 +1,15 @@
+OfferMe
+Copyright 2026 Xiao-0309 and OfferMe contributors
+
+Includes code derived from MeetingCopilot by JWM0203 and contributors.
+Upstream: https://github.com/JWM0203/MeetingCopilot
+Licensed under the Apache License, Version 2.0. See LICENSE and UPSTREAM.md.
+
+This distribution contains modifications to cloud transcription, application
+identity, audio/window lifecycle, document context, interview practice,
+localization and visual design. It is independently maintained and is not
+endorsed by the upstream project.
+
+Interview source pages remain the property of their respective authors.
+The curated bank contains short paraphrased topics and links, not full articles.
+See docs/INTERVIEW_BANK.md and resources/interview-bank/seed.json for provenance.

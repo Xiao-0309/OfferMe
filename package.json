@@ -1,0 +1,62 @@
+{
+  "name": "offerme",
+  "version": "0.7.0",
+  "description": "Resume-grounded interview practice and cloud API meeting assistance",
+  "main": "./out/main/index.js",
+  "author": "Xiao-0309 and OfferMe contributors",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "start": "electron-vite preview",
+    "build:native": "node tools/build-native.mjs",
+    "build": "npm run build:brand && npm run build:native && electron-vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "test": "vitest run",
+    "check:public": "node tools/check-public-source.mjs",
+    "verify": "npm run check:public && npm run typecheck && npm test && npm run build",
+    "dist:dir": "npm run build && electron-builder --dir --publish never",
+    "dist:mac": "npm run build && electron-builder --mac --arm64 --publish never",
+    "dist:win": "npm run build && electron-builder --win nsis portable --publish never",
+    "smoke:asr": "node tools/rt-asr-smoke.mjs",
+    "audio:setup": "npm run build:native && node tools/audio-route.mjs configure",
+    "audio:status": "node tools/audio-route.mjs status",
+    "audio:restore": "node tools/audio-route.mjs restore",
+    "build:brand": "node tools/build-brand.mjs",
+    "test:ui": "npm run build && node tools/ui-runner.mjs",
+    "screenshots": "npm run build && node tools/ui-runner.mjs --screenshots"
+  },
+  "dependencies": {
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.80",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/ws": "^8.5.13",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "45.2.1",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^3.1.0",
+    "esbuild": "0.25.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "5.0.5"
+  },
+  "homepage": "https://github.com/Xiao-0309/OfferMe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xiao-0309/OfferMe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xiao-0309/OfferMe/issues"
+  },
+  "engines": {
+    "node": ">=22.12 <23"
+  }
+}

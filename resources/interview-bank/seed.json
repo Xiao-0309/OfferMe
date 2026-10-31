@@ -1,0 +1,4011 @@
+{
+  "version": "2026-10-29.2",
+  "checkedAt": "2026-10-29",
+  "sources": [
+    {
+      "id": "nc-byte-tac",
+      "title": "字节 TAC 二面实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/ddfcfae15432465bb30f0573fe204dc5",
+      "company": "bytedance",
+      "role": "广告／搜推算法实习",
+      "publishedAt": "2025-05-09",
+      "dateLabel": "2025-05-09",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-byte-diffusion",
+      "title": "字节生活服务算法二面",
+      "url": "https://www.nowcoder.com/feed/main/detail/6653c5bcbcc54eb08a738dd2956fd9d0",
+      "company": "bytedance",
+      "role": "人工智能算法",
+      "publishedAt": "2025-09-28",
+      "dateLabel": "2025-09-28",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-byte-rec",
+      "title": "23届暑期算法面经：抖音推荐部分",
+      "url": "https://www.nowcoder.com/discuss/466649424475725824",
+      "company": "bytedance",
+      "role": "搜广推算法",
+      "publishedAt": "2023-03-18",
+      "dateLabel": "2023-03-18 发布；文中回顾前一年面试",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-meituan-search",
+      "title": "美团搜推算法前两轮面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/064ff826ba01411294afe698056a759f",
+      "company": "meituan",
+      "role": "搜索推荐算法",
+      "publishedAt": "2025-08-29",
+      "dateLabel": "2025-08-29",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-meituan-rl",
+      "title": "美团运筹优化暑期实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/134ccf1d27884423899a48dea597b7ba",
+      "company": "meituan",
+      "role": "运筹优化算法",
+      "publishedAt": "2025-06-11",
+      "dateLabel": "2025-06-11",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-multimodal",
+      "title": "大模型日常实习面经：百度与快手部分",
+      "url": "https://www.nowcoder.com/feed/main/detail/44b2baec47c740c4b9bccb8a013abd56",
+      "company": "multiple",
+      "role": "多模态／大模型实习",
+      "publishedAt": "2025-05-07",
+      "dateLabel": "2025-05-07",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-ali-platform",
+      "title": "阿里云 AI 平台研发一面",
+      "url": "https://www.nowcoder.com/feed/main/detail/7fa8ae2f1c2e42909e664dce6cbc8190",
+      "company": "alibaba",
+      "role": "AI平台研发（含工程）",
+      "publishedAt": "2025-03-04",
+      "dateLabel": "2025-03-04",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-ali-agent",
+      "title": "阿里 AI Agent 应用开发一面",
+      "url": "https://www.nowcoder.com/feed/main/detail/2a62a9d9e4f84613af9c3d2c602554ca",
+      "company": "alibaba",
+      "role": "AI Agent应用开发",
+      "publishedAt": null,
+      "dateLabel": "04-24；页面未标明年份",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-tencent-llm",
+      "title": "腾讯大模型算法一二面",
+      "url": "https://www.nowcoder.com/feed/main/detail/744b588e62b444a19732eed3fa9aad1c",
+      "company": "tencent",
+      "role": "大模型算法",
+      "publishedAt": null,
+      "dateLabel": "10-02；页面未标明年份",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-tencent-infra",
+      "title": "腾讯 AI Infra 实习一面",
+      "url": "https://www.nowcoder.com/feed/main/detail/79f0a345a13a466a831a9ae5104f0c03",
+      "company": "tencent",
+      "role": "AI Infra实习",
+      "publishedAt": null,
+      "dateLabel": "03-15；页面未标明年份",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-xhs-llm",
+      "title": "小红书大模型算法一面",
+      "url": "https://www.nowcoder.com/feed/main/detail/18a77b92694b41acb722a8152d0c35b3",
+      "company": "xiaohongshu",
+      "role": "大模型算法",
+      "publishedAt": null,
+      "dateLabel": "07-28；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "official-amazon",
+      "title": "Amazon Applied Scientist Interview Prep",
+      "url": "https://amazon.jobs/content/en/how-we-hire/applied-scientist-interview-prep",
+      "company": "amazon",
+      "role": "Applied Scientist",
+      "publishedAt": null,
+      "dateLabel": "未注明发布日期",
+      "kind": "official",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "official-ms",
+      "title": "Microsoft Technical Interviewing",
+      "url": "https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing",
+      "company": "microsoft",
+      "role": "技术岗／AI与机器学习",
+      "publishedAt": null,
+      "dateLabel": "未注明发布日期",
+      "kind": "official",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-baidu-nlp",
+      "title": "百度 NLP 算法实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/f1cf76a27c4248378303dadcd0d810de",
+      "company": "baidu",
+      "role": "NLP算法实习",
+      "publishedAt": "2024-01-05",
+      "dateLabel": "2024-01-05",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-ml-2021",
+      "title": "腾讯／阿里／美团算法实习面经",
+      "url": "https://www.nowcoder.com/discuss/353157824110862336",
+      "company": "multiple",
+      "role": "机器学习算法实习",
+      "publishedAt": "2021-04-16",
+      "dateLabel": "2021-04-16",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-cv-2020",
+      "title": "计算机视觉春招与秋招面经总结",
+      "url": "https://www.nowcoder.com/discuss/353155672252555264",
+      "company": "multiple",
+      "role": "计算机视觉算法",
+      "publishedAt": "2020-04-10",
+      "dateLabel": "2020-04-10",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-speech-2025",
+      "title": "语音与时序方向日常实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/c6e933488ad344268581130c8360e53c",
+      "company": "multiple",
+      "role": "语音／时序算法；原帖未逐题对应公司",
+      "publishedAt": "2025-10-01",
+      "dateLabel": "2025-10-01",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-vivo-speech",
+      "title": "vivo 人工智能语音算法岗技术面经",
+      "url": "https://www.nowcoder.com/discuss/353154446978916352",
+      "company": "vivo",
+      "role": "语音算法",
+      "publishedAt": "2018-08-09",
+      "dateLabel": "2018-08-09",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-infra-spring25",
+      "title": "2025 春招 AI Infra 实习面经汇总",
+      "url": "https://ac.nowcoder.com/discuss/1482822?type=0",
+      "company": "multiple",
+      "role": "AI Infra／推理引擎",
+      "publishedAt": "2025-04-17",
+      "dateLabel": "2025-04-17",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-cv-intern22",
+      "title": "计算机视觉算法实习生面经（2022）",
+      "url": "https://www.nowcoder.com/discuss/353159342998364160",
+      "company": "multiple",
+      "role": "计算机视觉实习",
+      "publishedAt": "2022-04-09",
+      "dateLabel": "2022-04-09",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-cv-intern21",
+      "title": "计算机视觉算法实习生面经（2021）",
+      "url": "https://www.nowcoder.com/discuss/353158337850187776",
+      "company": "multiple",
+      "role": "计算机视觉实习",
+      "publishedAt": "2021-08-25",
+      "dateLabel": "2021-08-25",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-eleme-rl25",
+      "title": "饿了么机器学习暑期实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/4d80ffaff2a840ec92b69e76698c16e2",
+      "company": "alibaba",
+      "role": "机器学习／调度优化",
+      "publishedAt": "2025-06-06",
+      "dateLabel": "2025-06-06",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-wxg-rl",
+      "title": "腾讯 WXG 暑期大模型算法面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/d3c8e5962e1b43aab21aa5af52423b56",
+      "company": "tencent",
+      "role": "大模型／强化学习",
+      "publishedAt": null,
+      "dateLabel": "05-25；页面未标明年份",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-nlp-intern20",
+      "title": "腾讯与字节 NLP 实习面经",
+      "url": "https://www.nowcoder.com/discuss/353156076356968448",
+      "company": "multiple",
+      "role": "NLP算法实习",
+      "publishedAt": "2020-02-27",
+      "dateLabel": "2020-02-27",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-dolby-speech23",
+      "title": "语音算法暑期实习面经：杜比实验室部分",
+      "url": "https://www.nowcoder.com/discuss/469934017333239808",
+      "company": "dolby",
+      "role": "语音前端／降噪",
+      "publishedAt": "2023-03-27",
+      "dateLabel": "2023-03-27",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-car-nlp22",
+      "title": "极氪与比亚迪 NLP 面经",
+      "url": "https://www.nowcoder.com/discuss/415842768226988032",
+      "company": "multiple",
+      "role": "NLP／智能座舱",
+      "publishedAt": "2022-10-29",
+      "dateLabel": "2022-10-29",
+      "kind": "community",
+      "access": "page",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-tx-llm-sep",
+      "title": "腾讯大模型算法一面：多模态项目与训练",
+      "url": "https://www.nowcoder.com/feed/main/detail/924b039b90864b1caaf11d8f2e0184cc",
+      "company": "tencent",
+      "role": "大模型算法",
+      "publishedAt": null,
+      "dateLabel": "09-06；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-jd-vlm",
+      "title": "京东大模型算法一面：视觉语言模型",
+      "url": "https://www.nowcoder.com/feed/main/detail/64b2a6118f834074be39c7808a93d2e8",
+      "company": "jd",
+      "role": "多模态大模型",
+      "publishedAt": null,
+      "dateLabel": "页面未注明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-mt-llm-july",
+      "title": "美团大模型算法一二面：后训练与 Agent",
+      "url": "https://www.nowcoder.com/feed/main/detail/b264abf14d4d4c44bc022c9ea1dce981",
+      "company": "meituan",
+      "role": "大模型算法",
+      "publishedAt": null,
+      "dateLabel": "07-05；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-ali-rec-march",
+      "title": "阿里推荐算法校招面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/bae49037ce234625b06da119cd115567",
+      "company": "alibaba",
+      "role": "推荐／广告算法",
+      "publishedAt": null,
+      "dateLabel": "03-05；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-jd-ranking",
+      "title": "京东推荐算法实习：排序与行为序列",
+      "url": "https://www.nowcoder.com/feed/main/detail/9e931e927e7f4de79257fdb29f8f7fa2",
+      "company": "jd",
+      "role": "推荐算法实习",
+      "publishedAt": null,
+      "dateLabel": "页面未注明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-vivo-wfst",
+      "title": "vivo 人工智能语音算法面经：静态解码与对齐",
+      "url": "https://www.nowcoder.com/discuss/353154586846371840",
+      "company": "vivo",
+      "role": "语音识别",
+      "publishedAt": "2018-09-21",
+      "dateLabel": "2018-09-21",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-zyb-speech25",
+      "title": "作业帮语音算法暑期实习面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/e8a42f694d5c486987b2786db42945c0",
+      "company": "zuoyebang",
+      "role": "语音算法实习",
+      "publishedAt": "2025-05-28",
+      "dateLabel": "2025-05-28 编辑；评论显示面试发生更早",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-byte-rl-collapse",
+      "title": "字节大模型实习：奖励与多目标训练",
+      "url": "https://www.nowcoder.com/feed/main/detail/f1207ce35a744a4dbf1650a1d7dc7051",
+      "company": "bytedance",
+      "role": "大模型算法实习",
+      "publishedAt": null,
+      "dateLabel": "03-07；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-byte-agent-reward",
+      "title": "字节 AI Agent 实习一面：工具与过程奖励",
+      "url": "https://www.nowcoder.com/feed/main/detail/36f397670374455896bd05de6858c06a",
+      "company": "bytedance",
+      "role": "AI Agent开发实习",
+      "publishedAt": null,
+      "dateLabel": "02-24；页面未标明年份，标题为27届",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-mt-posttrain25",
+      "title": "美团大模型算法秋招二面",
+      "url": "https://www.nowcoder.com/feed/main/detail/e72d861f57c1499393be6651f8611177",
+      "company": "meituan",
+      "role": "大模型算法",
+      "publishedAt": "2025-12-18",
+      "dateLabel": "2025-12-18",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-baidu-search-rounds",
+      "title": "百度搜索算法三轮面经",
+      "url": "https://www.nowcoder.com/feed/main/detail/713ef57fee6841beb16001961ca0d8cf",
+      "company": "baidu",
+      "role": "搜索推荐算法",
+      "publishedAt": null,
+      "dateLabel": "07-03；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-ali-infra-sep",
+      "title": "阿里 AI Infra 二面：通信与推理排障",
+      "url": "https://www.nowcoder.com/feed/main/detail/2b15e6dfeeeb491f97fdeeaa2c12e438",
+      "company": "alibaba",
+      "role": "AI Infra",
+      "publishedAt": null,
+      "dateLabel": "09-18；页面未标明年份",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "nc-iflytek-infra26",
+      "title": "科大讯飞星火推理工程部 AI Infra 面经",
+      "url": "https://www.nowcoder.com/discuss/944282956095320064",
+      "company": "iflytek",
+      "role": "大模型训练／推理 Infra",
+      "publishedAt": "2026-10-26",
+      "dateLabel": "2026-10-26；文中明确注明分享日期",
+      "kind": "community",
+      "access": "search-index",
+      "checkedAt": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "byte-auc",
+      "sourceId": "nc-byte-tac",
+      "company": "bytedance",
+      "tracks": [
+        "recommendation",
+        "general"
+      ],
+      "category": "foundation",
+      "question": "项目为什么采用 AUC？如何计算并解释它？",
+      "tags": [
+        "auc",
+        "评估",
+        "指标",
+        "推荐",
+        "ranking"
+      ]
+    },
+    {
+      "id": "byte-cold-start",
+      "sourceId": "nc-byte-tac",
+      "company": "bytedance",
+      "tracks": [
+        "recommendation",
+        "llm"
+      ],
+      "category": "design",
+      "question": "推荐冷启动如何处理，大模型能在哪些环节帮忙？",
+      "tags": [
+        "冷启动",
+        "推荐",
+        "llm",
+        "cold start"
+      ]
+    },
+    {
+      "id": "byte-contrastive",
+      "sourceId": "nc-byte-tac",
+      "company": "bytedance",
+      "tracks": [
+        "recommendation",
+        "multimodal",
+        "llm"
+      ],
+      "category": "coding",
+      "question": "写出你项目使用的对比损失，并解释其构造。",
+      "tags": [
+        "对比学习",
+        "infonce",
+        "loss",
+        "embedding",
+        "contrastive"
+      ]
+    },
+    {
+      "id": "byte-norm",
+      "sourceId": "nc-byte-tac",
+      "company": "bytedance",
+      "tracks": [
+        "llm",
+        "general"
+      ],
+      "category": "foundation",
+      "question": "比较 LayerNorm 与 BatchNorm 的适用条件。",
+      "tags": [
+        "layernorm",
+        "batchnorm",
+        "transformer",
+        "归一化"
+      ]
+    },
+    {
+      "id": "byte-flow",
+      "sourceId": "nc-byte-diffusion",
+      "company": "bytedance",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "从训练目标解释 DDPM 与 Flow Matching 的差别。",
+      "tags": [
+        "ddpm",
+        "flow matching",
+        "diffusion",
+        "生成",
+        "扩散"
+      ]
+    },
+    {
+      "id": "byte-reparameterize",
+      "sourceId": "nc-byte-diffusion",
+      "company": "bytedance",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "说明 DDPM 中重参数化的步骤及作用。",
+      "tags": [
+        "ddpm",
+        "重参数化",
+        "diffusion",
+        "扩散"
+      ]
+    },
+    {
+      "id": "byte-coin",
+      "sourceId": "nc-byte-diffusion",
+      "company": "bytedance",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "求指定面值凑出目标金额的组合数，如何避免重复计数？",
+      "tags": [
+        "动态规划",
+        "dp",
+        "dfs",
+        "coding",
+        "算法"
+      ]
+    },
+    {
+      "id": "byte-feature",
+      "sourceId": "nc-byte-rec",
+      "company": "bytedance",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "project",
+      "question": "怎样构造推荐训练样本、标签与特征？重做会改什么？",
+      "tags": [
+        "推荐",
+        "特征",
+        "标签",
+        "样本",
+        "feature"
+      ]
+    },
+    {
+      "id": "byte-uauc",
+      "sourceId": "nc-byte-rec",
+      "company": "bytedance",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "全局 AUC 与按用户分组的 AUC 有何区别？",
+      "tags": [
+        "auc",
+        "uauc",
+        "评估",
+        "推荐"
+      ]
+    },
+    {
+      "id": "byte-fm",
+      "sourceId": "nc-byte-rec",
+      "company": "bytedance",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "解释 DeepFM 中 FM 交互项及其计算复杂度。",
+      "tags": [
+        "deepfm",
+        "fm",
+        "特征交叉",
+        "推荐"
+      ]
+    },
+    {
+      "id": "byte-cross-entropy",
+      "sourceId": "nc-byte-rec",
+      "company": "bytedance",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "如何从最大似然的角度理解交叉熵损失？",
+      "tags": [
+        "交叉熵",
+        "最大似然",
+        "cross entropy",
+        "loss",
+        "分类"
+      ]
+    },
+    {
+      "id": "meituan-sequence",
+      "sourceId": "nc-meituan-search",
+      "company": "meituan",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "用户行为序列怎样利用时间与地理信息？",
+      "tags": [
+        "推荐",
+        "行为序列",
+        "时空",
+        "lbs",
+        "sequence"
+      ]
+    },
+    {
+      "id": "meituan-rag",
+      "sourceId": "nc-meituan-search",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "recommendation"
+      ],
+      "category": "project",
+      "question": "RAG 知识库规模为何这样选？如何提升召回？",
+      "tags": [
+        "rag",
+        "检索",
+        "召回",
+        "知识库",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "meituan-lbs",
+      "sourceId": "nc-meituan-search",
+      "company": "meituan",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "本地生活中，门店与商品应如何分别建模？",
+      "tags": [
+        "lbs",
+        "推荐",
+        "门店",
+        "商品",
+        "建模"
+      ]
+    },
+    {
+      "id": "meituan-rl-loss",
+      "sourceId": "nc-meituan-rl",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "general",
+        "rl"
+      ],
+      "category": "project",
+      "question": "解释强化学习论文的建模创新与损失传递路径。",
+      "tags": [
+        "强化学习",
+        "rl",
+        "loss",
+        "论文",
+        "创新"
+      ]
+    },
+    {
+      "id": "meituan-reward",
+      "sourceId": "nc-meituan-rl",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "general",
+        "rl"
+      ],
+      "category": "design",
+      "question": "多目标强化学习如何调整奖励权重？",
+      "tags": [
+        "强化学习",
+        "reward",
+        "奖励",
+        "多目标",
+        "优化"
+      ]
+    },
+    {
+      "id": "meituan-transfer",
+      "sourceId": "nc-meituan-rl",
+      "company": "meituan",
+      "tracks": [
+        "general",
+        "rl"
+      ],
+      "category": "project",
+      "question": "你的科研方案距离真实业务落地还缺哪些环节？",
+      "tags": [
+        "论文",
+        "项目",
+        "落地",
+        "验证",
+        "实验",
+        "业务"
+      ]
+    },
+    {
+      "id": "baidu-blip",
+      "sourceId": "nc-multimodal",
+      "company": "baidu",
+      "tracks": [
+        "multimodal"
+      ],
+      "category": "foundation",
+      "question": "比较 BLIP 与 BLIP-2 的结构和训练思路。",
+      "tags": [
+        "blip",
+        "blip2",
+        "多模态",
+        "视觉语言"
+      ]
+    },
+    {
+      "id": "baidu-clip",
+      "sourceId": "nc-multimodal",
+      "company": "baidu",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "CLIP 的图文训练目标如何构建？",
+      "tags": [
+        "clip",
+        "对比学习",
+        "多模态",
+        "图文",
+        "loss"
+      ]
+    },
+    {
+      "id": "baidu-vit",
+      "sourceId": "nc-multimodal",
+      "company": "baidu",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "解释 ViT 输入处理及各阶段张量维度。",
+      "tags": [
+        "vit",
+        "视觉",
+        "patch",
+        "transformer",
+        "维度"
+      ]
+    },
+    {
+      "id": "kuaishou-video",
+      "sourceId": "nc-multimodal",
+      "company": "kuaishou",
+      "tracks": [
+        "multimodal"
+      ],
+      "category": "design",
+      "question": "如何设计一个视频大模型应用并处理多模态信息？",
+      "tags": [
+        "视频",
+        "多模态",
+        "融合",
+        "video",
+        "设计"
+      ]
+    },
+    {
+      "id": "ali-rag-chain",
+      "sourceId": "nc-ali-platform",
+      "company": "alibaba",
+      "tracks": [
+        "llm",
+        "recommendation"
+      ],
+      "category": "project",
+      "question": "说明 RAG 全链路、模型选择及你负责的部分。",
+      "tags": [
+        "rag",
+        "检索",
+        "知识库",
+        "模型选型",
+        "项目"
+      ]
+    },
+    {
+      "id": "ali-multirecall",
+      "sourceId": "nc-ali-platform",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation",
+        "llm"
+      ],
+      "category": "design",
+      "question": "多路召回如何组织，召回与排序各负责什么？",
+      "tags": [
+        "召回",
+        "双塔",
+        "精排",
+        "重排",
+        "检索",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "ali-mrr",
+      "sourceId": "nc-ali-platform",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "除 MRR 外，你会用哪些检索评价指标？",
+      "tags": [
+        "mrr",
+        "ndcg",
+        "recall",
+        "评估",
+        "检索",
+        "指标"
+      ]
+    },
+    {
+      "id": "ali-mm-recall",
+      "sourceId": "nc-ali-agent",
+      "company": "alibaba",
+      "tracks": [
+        "multimodal",
+        "llm"
+      ],
+      "category": "project",
+      "question": "图文检索召回外观相似却语义错误的结果，如何定位？",
+      "tags": [
+        "多模态",
+        "embedding",
+        "rag",
+        "召回",
+        "context precision"
+      ]
+    },
+    {
+      "id": "ali-hybrid",
+      "sourceId": "nc-ali-agent",
+      "company": "alibaba",
+      "tracks": [
+        "llm",
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "混合检索中如何统一 BM25 与向量分数的尺度？",
+      "tags": [
+        "bm25",
+        "向量",
+        "混合检索",
+        "hybrid",
+        "milvus"
+      ]
+    },
+    {
+      "id": "ali-lora",
+      "sourceId": "nc-ali-agent",
+      "company": "alibaba",
+      "tracks": [
+        "llm",
+        "nlp"
+      ],
+      "category": "foundation",
+      "question": "解释 LoRA 初始化、秩选择与推理权重合并。",
+      "tags": [
+        "lora",
+        "微调",
+        "低秩",
+        "finetuning",
+        "merge"
+      ]
+    },
+    {
+      "id": "ali-dpo",
+      "sourceId": "nc-ali-agent",
+      "company": "alibaba",
+      "tracks": [
+        "llm",
+        "rl"
+      ],
+      "category": "foundation",
+      "question": "DPO 的数据与训练方式为何不同于 PPO 在线采样？",
+      "tags": [
+        "dpo",
+        "ppo",
+        "强化学习",
+        "偏好",
+        "对齐"
+      ]
+    },
+    {
+      "id": "tx-rollout",
+      "sourceId": "nc-tencent-llm",
+      "company": "tencent",
+      "tracks": [
+        "llm",
+        "rl"
+      ],
+      "category": "design",
+      "question": "多轮工具 rollout 怎样定义损失和最终奖励？",
+      "tags": [
+        "agent",
+        "rollout",
+        "强化学习",
+        "reward",
+        "工具"
+      ]
+    },
+    {
+      "id": "tx-grpo",
+      "sourceId": "nc-tencent-llm",
+      "company": "tencent",
+      "tracks": [
+        "llm",
+        "rl"
+      ],
+      "category": "foundation",
+      "question": "从损失与优化层面比较 GRPO 的局限和 GSPO 改动。",
+      "tags": [
+        "grpo",
+        "gspo",
+        "强化学习",
+        "对齐",
+        "loss"
+      ]
+    },
+    {
+      "id": "tx-agent-eval",
+      "sourceId": "nc-tencent-llm",
+      "company": "tencent",
+      "tracks": [
+        "llm"
+      ],
+      "category": "project",
+      "question": "如何拆解模型、知识库、工具与路由对 Agent 效果的贡献？",
+      "tags": [
+        "agent",
+        "评估",
+        "消融",
+        "rag",
+        "工具",
+        "路由"
+      ]
+    },
+    {
+      "id": "tx-mha",
+      "sourceId": "nc-tencent-llm",
+      "company": "tencent",
+      "tracks": [
+        "llm",
+        "multimodal",
+        "nlp",
+        "infra"
+      ],
+      "category": "coding",
+      "question": "实现多头注意力并说明张量转置与内存连续性的处理。",
+      "tags": [
+        "attention",
+        "mha",
+        "qkv",
+        "transformer",
+        "coding"
+      ]
+    },
+    {
+      "id": "tx-prefill",
+      "sourceId": "nc-tencent-infra",
+      "company": "tencent",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "Chunked Prefill 是为解决哪类推理问题引入的？",
+      "tags": [
+        "prefill",
+        "推理",
+        "vllm",
+        "延迟",
+        "inference"
+      ]
+    },
+    {
+      "id": "tx-collectives",
+      "sourceId": "nc-tencent-infra",
+      "company": "tencent",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "解释 Reduce-Scatter 与 All-to-All 的通信语义。",
+      "tags": [
+        "reduce scatter",
+        "all to all",
+        "分布式",
+        "通信",
+        "训练"
+      ]
+    },
+    {
+      "id": "tx-cuda",
+      "sourceId": "nc-tencent-infra",
+      "company": "tencent",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "怎样降低 CUDA kernel 启动成本并处理 bank conflict？",
+      "tags": [
+        "cuda",
+        "gpu",
+        "kernel",
+        "bank conflict",
+        "性能"
+      ]
+    },
+    {
+      "id": "tx-topology",
+      "sourceId": "nc-tencent-infra",
+      "company": "tencent",
+      "tracks": [
+        "infra"
+      ],
+      "category": "design",
+      "question": "混合 NVLink 与 RDMA 互联时，如何规划分布式推理？",
+      "tags": [
+        "nvlink",
+        "rdma",
+        "分布式",
+        "推理",
+        "并行"
+      ]
+    },
+    {
+      "id": "xhs-loss-ranking",
+      "sourceId": "nc-xhs-llm",
+      "company": "xiaohongshu",
+      "tracks": [
+        "recommendation",
+        "llm"
+      ],
+      "category": "project",
+      "question": "损失下降但排序变差时，怎样定位目标函数问题？",
+      "tags": [
+        "mse",
+        "bce",
+        "infonce",
+        "排序",
+        "loss",
+        "ranking"
+      ]
+    },
+    {
+      "id": "xhs-false-negative",
+      "sourceId": "nc-xhs-llm",
+      "company": "xiaohongshu",
+      "tracks": [
+        "recommendation",
+        "multimodal",
+        "llm",
+        "nlp"
+      ],
+      "category": "foundation",
+      "question": "InfoNCE 中假负样本会造成什么影响，如何缓解？",
+      "tags": [
+        "infonce",
+        "负样本",
+        "对比学习",
+        "embedding"
+      ]
+    },
+    {
+      "id": "xhs-nan",
+      "sourceId": "nc-xhs-llm",
+      "company": "xiaohongshu",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "project",
+      "question": "如何排查 FP16 池化计算中的溢出和 NaN？",
+      "tags": [
+        "fp16",
+        "nan",
+        "数值稳定",
+        "vllm",
+        "pooling"
+      ]
+    },
+    {
+      "id": "amazon-assumptions",
+      "sourceId": "official-amazon",
+      "company": "amazon",
+      "tracks": [
+        "general"
+      ],
+      "category": "project",
+      "question": "选择一个研究项目，说明建模假设及验证方法。",
+      "tags": [
+        "项目",
+        "论文",
+        "假设",
+        "实验",
+        "建模",
+        "验证"
+      ]
+    },
+    {
+      "id": "amazon-scale",
+      "sourceId": "official-amazon",
+      "company": "amazon",
+      "tracks": [
+        "general",
+        "infra",
+        "infra"
+      ],
+      "category": "design",
+      "question": "怎样把实验算法实现为可扩展、可靠的系统？",
+      "tags": [
+        "落地",
+        "扩展",
+        "系统",
+        "模型",
+        "性能",
+        "scalability"
+      ]
+    },
+    {
+      "id": "amazon-depth",
+      "sourceId": "official-amazon",
+      "company": "amazon",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "选一个熟悉的机器学习方法，解释原理、边界和替代方案。",
+      "tags": [
+        "机器学习",
+        "模型",
+        "原理",
+        "取舍",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "ms-sort",
+      "sourceId": "official-ms",
+      "company": "microsoft",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "实现一种 O(n log n) 排序，并分析复杂度与边界条件。",
+      "tags": [
+        "排序",
+        "算法",
+        "coding",
+        "quicksort",
+        "mergesort"
+      ]
+    },
+    {
+      "id": "ms-ml-pipeline",
+      "sourceId": "official-ms",
+      "company": "microsoft",
+      "tracks": [
+        "general",
+        "infra"
+      ],
+      "category": "project",
+      "question": "如何评估、剖析并优化项目中的机器学习训练流水线？",
+      "tags": [
+        "机器学习",
+        "训练",
+        "评估",
+        "profiling",
+        "优化",
+        "pipeline"
+      ]
+    },
+    {
+      "id": "ms-statistics",
+      "sourceId": "official-ms",
+      "company": "microsoft",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "怎样用统计检验评估观察到的效果提升？",
+      "tags": [
+        "统计",
+        "概率",
+        "假设检验",
+        "实验",
+        "p value",
+        "statistics"
+      ]
+    },
+    {
+      "id": "ms-data-structures",
+      "sourceId": "official-ms",
+      "company": "microsoft",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "针对一个问题选择数据结构，解释取舍并测试边界情况。",
+      "tags": [
+        "数据结构",
+        "算法",
+        "coding",
+        "哈希",
+        "树",
+        "测试"
+      ]
+    },
+    {
+      "id": "baidu-ner",
+      "sourceId": "nc-baidu-nlp",
+      "company": "baidu",
+      "tracks": [
+        "nlp"
+      ],
+      "category": "project",
+      "question": "命名实体识别遇到嵌套实体时，你如何建模？",
+      "tags": [
+        "ner",
+        "命名实体",
+        "nlp",
+        "实体嵌套",
+        "序列标注"
+      ]
+    },
+    {
+      "id": "baidu-role",
+      "sourceId": "nc-baidu-nlp",
+      "company": "baidu",
+      "tracks": [
+        "nlp",
+        "llm"
+      ],
+      "category": "design",
+      "question": "如何构建数据，让一次微调支持多个角色？",
+      "tags": [
+        "微调",
+        "角色",
+        "数据",
+        "sft",
+        "nlp"
+      ]
+    },
+    {
+      "id": "baidu-pretrain",
+      "sourceId": "nc-baidu-nlp",
+      "company": "baidu",
+      "tracks": [
+        "nlp",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "预训练与指令微调在目标、数据上有哪些区别？",
+      "tags": [
+        "预训练",
+        "sft",
+        "指令微调",
+        "nlp",
+        "llm"
+      ]
+    },
+    {
+      "id": "baidu-bert",
+      "sourceId": "nc-baidu-nlp",
+      "company": "baidu",
+      "tracks": [
+        "nlp"
+      ],
+      "category": "foundation",
+      "question": "解释 BERT 的预训练任务及 RoBERTa 的改动。",
+      "tags": [
+        "bert",
+        "roberta",
+        "nsp",
+        "mlm",
+        "预训练",
+        "nlp"
+      ]
+    },
+    {
+      "id": "baidu-badcase",
+      "sourceId": "nc-baidu-nlp",
+      "company": "baidu",
+      "tracks": [
+        "nlp",
+        "general"
+      ],
+      "category": "project",
+      "question": "怎样用失败样例分析来验证你的项目改进？",
+      "tags": [
+        "badcase",
+        "错误分析",
+        "消融",
+        "评估",
+        "项目"
+      ]
+    },
+    {
+      "id": "tx-kmeans",
+      "sourceId": "nc-ml-2021",
+      "company": "tencent",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "K-means 的关键参数是什么，怎样选择聚类数？",
+      "tags": [
+        "kmeans",
+        "聚类",
+        "k-means",
+        "机器学习"
+      ]
+    },
+    {
+      "id": "tx-ensemble",
+      "sourceId": "nc-ml-2021",
+      "company": "tencent",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "比较 Bagging、Boosting，并分析随机森林对偏差和方差的影响。",
+      "tags": [
+        "bagging",
+        "boosting",
+        "随机森林",
+        "xgboost",
+        "机器学习"
+      ]
+    },
+    {
+      "id": "tx-threshold",
+      "sourceId": "nc-ml-2021",
+      "company": "tencent",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "给定预测概率，如何选择使 F1 最大的阈值？",
+      "tags": [
+        "f1",
+        "precision",
+        "recall",
+        "分类",
+        "阈值",
+        "coding"
+      ]
+    },
+    {
+      "id": "mt-gradients",
+      "sourceId": "nc-ml-2021",
+      "company": "meituan",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "如何诊断并处理梯度消失或梯度爆炸？",
+      "tags": [
+        "梯度",
+        "训练",
+        "relu",
+        "sigmoid",
+        "优化器"
+      ]
+    },
+    {
+      "id": "mt-lr",
+      "sourceId": "nc-ml-2021",
+      "company": "meituan",
+      "tracks": [
+        "general",
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "比较 LR 与 XGBoost，在推荐业务里如何选？",
+      "tags": [
+        "lr",
+        "xgboost",
+        "推荐",
+        "逻辑回归"
+      ]
+    },
+    {
+      "id": "ali-nms",
+      "sourceId": "nc-cv-2020",
+      "company": "alibaba",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "解释 NMS 流程，并讨论有哪些改进方式。",
+      "tags": [
+        "nms",
+        "soft nms",
+        "目标检测",
+        "cv",
+        "iou"
+      ]
+    },
+    {
+      "id": "ali-focal",
+      "sourceId": "nc-cv-2020",
+      "company": "alibaba",
+      "tracks": [
+        "cv"
+      ],
+      "category": "coding",
+      "question": "说明 Focal Loss 的设计目的，并实现它。",
+      "tags": [
+        "focal loss",
+        "分类",
+        "目标检测",
+        "不平衡",
+        "cv"
+      ]
+    },
+    {
+      "id": "ali-pix2pix",
+      "sourceId": "nc-cv-2020",
+      "company": "alibaba",
+      "tracks": [
+        "cv",
+        "multimodal"
+      ],
+      "category": "foundation",
+      "question": "pix2pix 中生成器与 PatchGAN 判别器怎样设计？",
+      "tags": [
+        "pix2pix",
+        "patchgan",
+        "gan",
+        "图像生成",
+        "cv"
+      ]
+    },
+    {
+      "id": "ali-anchor",
+      "sourceId": "nc-cv-2020",
+      "company": "alibaba",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "说明 Faster R-CNN 的 anchor 设计与作用。",
+      "tags": [
+        "faster rcnn",
+        "anchor",
+        "目标检测",
+        "cv"
+      ]
+    },
+    {
+      "id": "sense-small",
+      "sourceId": "nc-cv-2020",
+      "company": "sensetime",
+      "tracks": [
+        "cv"
+      ],
+      "category": "design",
+      "question": "小目标检测效果差时，你会从哪些方面改进？",
+      "tags": [
+        "小目标",
+        "目标检测",
+        "cv",
+        "检测"
+      ]
+    },
+    {
+      "id": "sense-nms",
+      "sourceId": "nc-cv-2020",
+      "company": "sensetime",
+      "tracks": [
+        "cv"
+      ],
+      "category": "coding",
+      "question": "实现带类别的 NMS，并解释是否应跨类别抑制。",
+      "tags": [
+        "nms",
+        "目标检测",
+        "cv",
+        "coding"
+      ]
+    },
+    {
+      "id": "speech-process",
+      "sourceId": "nc-speech-2025",
+      "company": "multiple",
+      "tracks": [
+        "speech"
+      ],
+      "category": "project",
+      "question": "说明你项目的音频预处理流程和所用工具。",
+      "tags": [
+        "音频",
+        "预处理",
+        "speech",
+        "语音",
+        "pytorch"
+      ]
+    },
+    {
+      "id": "speech-tdnn",
+      "sourceId": "nc-speech-2025",
+      "company": "multiple",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "比较 TDNN 与 ECAPA-TDNN，并解释 EER 指标。",
+      "tags": [
+        "tdnn",
+        "ecapa",
+        "eer",
+        "声纹",
+        "语音"
+      ]
+    },
+    {
+      "id": "speech-speaker",
+      "sourceId": "nc-speech-2025",
+      "company": "multiple",
+      "tracks": [
+        "speech"
+      ],
+      "category": "project",
+      "question": "声纹识别项目采用什么损失与指标，如何调优？",
+      "tags": [
+        "声纹",
+        "损失",
+        "评估",
+        "speaker",
+        "语音"
+      ]
+    },
+    {
+      "id": "speech-whisper",
+      "sourceId": "nc-speech-2025",
+      "company": "multiple",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "Whisper 怎样使用 Transformer 处理语音？",
+      "tags": [
+        "whisper",
+        "asr",
+        "语音识别",
+        "transformer"
+      ]
+    },
+    {
+      "id": "speech-vits",
+      "sourceId": "nc-speech-2025",
+      "company": "multiple",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "解释 VITS 的语音合成建模思路。",
+      "tags": [
+        "vits",
+        "tts",
+        "语音合成",
+        "speech"
+      ]
+    },
+    {
+      "id": "vivo-mfcc",
+      "sourceId": "nc-vivo-speech",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "解释 MFCC 提取流程及差分特征的用途。",
+      "tags": [
+        "mfcc",
+        "音频",
+        "特征",
+        "语音",
+        "speech"
+      ]
+    },
+    {
+      "id": "vivo-doa",
+      "sourceId": "nc-vivo-speech",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "解释项目中 DOA 声源方向估计的思路。",
+      "tags": [
+        "doa",
+        "声源",
+        "音频",
+        "语音",
+        "信号处理"
+      ]
+    },
+    {
+      "id": "vivo-viterbi",
+      "sourceId": "nc-vivo-speech",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "HMM 解码中，Viterbi 与穷举路径的最优结果是否一致？",
+      "tags": [
+        "hmm",
+        "viterbi",
+        "解码",
+        "语音识别",
+        "asr"
+      ]
+    },
+    {
+      "id": "mt-flash",
+      "sourceId": "nc-infra-spring25",
+      "company": "meituan",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "FlashAttention 如何改变注意力的访存过程？",
+      "tags": [
+        "flashattention",
+        "attention",
+        "访存",
+        "推理优化"
+      ]
+    },
+    {
+      "id": "mt-kernel-benchmark",
+      "sourceId": "nc-infra-spring25",
+      "company": "meituan",
+      "tracks": [
+        "infra"
+      ],
+      "category": "project",
+      "question": "算子提速如何测量，怎样排除硬件精度差异的影响？",
+      "tags": [
+        "benchmark",
+        "性能",
+        "算子",
+        "profiling"
+      ]
+    },
+    {
+      "id": "ant-batching",
+      "sourceId": "nc-infra-spring25",
+      "company": "alibaba",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "连续批处理应按什么维度组织请求？",
+      "tags": [
+        "continuous batching",
+        "调度",
+        "推理",
+        "serving"
+      ]
+    },
+    {
+      "id": "ant-gpu-memory",
+      "sourceId": "nc-infra-spring25",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "design",
+      "question": "为推理服务设计 GPU 显存管理机制。",
+      "tags": [
+        "gpu",
+        "显存",
+        "内存管理",
+        "推理"
+      ]
+    },
+    {
+      "id": "ali-coalescing",
+      "sourceId": "nc-infra-spring25",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "说明合并访存与共享内存 bank conflict。",
+      "tags": [
+        "cuda",
+        "coalescing",
+        "bank conflict",
+        "共享内存"
+      ]
+    },
+    {
+      "id": "ali-asymmetric",
+      "sourceId": "nc-infra-spring25",
+      "company": "alibaba",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "非对称量化怎样改变矩阵计算？",
+      "tags": [
+        "量化",
+        "zero point",
+        "非对称",
+        "quantization"
+      ]
+    },
+    {
+      "id": "ali-wmma",
+      "sourceId": "nc-infra-spring25",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "通过哪些接口使用 Tensor Core，WMMA 与 MMA 有何差异？",
+      "tags": [
+        "tensor core",
+        "wmma",
+        "mma",
+        "cuda"
+      ]
+    },
+    {
+      "id": "ali-softmax2d",
+      "sourceId": "nc-infra-spring25",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "coding",
+      "question": "实现沿矩阵一维归约的数值稳定 CUDA Softmax。",
+      "tags": [
+        "cuda",
+        "softmax",
+        "归约",
+        "数值稳定"
+      ]
+    },
+    {
+      "id": "ks-pipeline-grad",
+      "sourceId": "nc-infra-spring25",
+      "company": "kuaishou",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "流水线并行中梯度怎样计算和传递？",
+      "tags": [
+        "pipeline",
+        "流水线并行",
+        "梯度",
+        "分布式训练"
+      ]
+    },
+    {
+      "id": "ks-prefix-compress",
+      "sourceId": "nc-infra-spring25",
+      "company": "kuaishou",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "前缀缓存与 KV 缓存压缩各自解决什么开销？",
+      "tags": [
+        "prefix caching",
+        "kv cache",
+        "压缩",
+        "推理"
+      ]
+    },
+    {
+      "id": "byte-detector-family",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "比较 RCNN 系列、YOLO 与 SSD 的检测流程。",
+      "tags": [
+        "rcnn",
+        "yolo",
+        "ssd",
+        "目标检测"
+      ]
+    },
+    {
+      "id": "byte-ssd-anchor",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "SSD 和 YOLOv3 如何设置和使用锚框？",
+      "tags": [
+        "ssd",
+        "yolov3",
+        "anchor",
+        "目标检测"
+      ]
+    },
+    {
+      "id": "byte-deeplab",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "说明 DeepLabv3+ 的结构与分割流程。",
+      "tags": [
+        "deeplab",
+        "语义分割",
+        "segmentation"
+      ]
+    },
+    {
+      "id": "byte-aspp",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "ASPP 如何获取不同尺度的上下文？",
+      "tags": [
+        "aspp",
+        "多尺度",
+        "空洞卷积",
+        "分割"
+      ]
+    },
+    {
+      "id": "byte-resnet-channel",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "ResNet 残差分支的通道不一致时如何处理？",
+      "tags": [
+        "resnet",
+        "残差",
+        "通道",
+        "cv"
+      ]
+    },
+    {
+      "id": "byte-class-imbalance",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "cv",
+        "general"
+      ],
+      "category": "design",
+      "question": "分类数据严重不均衡时，怎样选择处理方案？",
+      "tags": [
+        "类别不平衡",
+        "采样",
+        "分类",
+        "loss"
+      ]
+    },
+    {
+      "id": "byte-virtual-destructor",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "infra",
+        "general"
+      ],
+      "category": "foundation",
+      "question": "多态对象的析构函数为何常需声明为虚函数？",
+      "tags": [
+        "c++",
+        "虚函数",
+        "析构",
+        "多态"
+      ]
+    },
+    {
+      "id": "byte-python-generator",
+      "sourceId": "nc-cv-intern22",
+      "company": "bytedance",
+      "tracks": [
+        "general"
+      ],
+      "category": "foundation",
+      "question": "Python 生成器与装饰器分别怎样工作？",
+      "tags": [
+        "python",
+        "生成器",
+        "装饰器",
+        "代码"
+      ]
+    },
+    {
+      "id": "didi-im2col",
+      "sourceId": "nc-cv-intern21",
+      "company": "didi",
+      "tracks": [
+        "cv",
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "im2col 怎样把卷积转化为矩阵运算？",
+      "tags": [
+        "im2col",
+        "卷积",
+        "矩阵乘法",
+        "cv"
+      ]
+    },
+    {
+      "id": "didi-few-shot",
+      "sourceId": "nc-cv-intern21",
+      "company": "didi",
+      "tracks": [
+        "cv"
+      ],
+      "category": "design",
+      "question": "只有少量标注样本时，如何开展视觉建模？",
+      "tags": [
+        "小样本",
+        "few shot",
+        "视觉",
+        "数据"
+      ]
+    },
+    {
+      "id": "aibee-anchorfree",
+      "sourceId": "nc-cv-intern21",
+      "company": "aibee",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "Anchor-free 检测与基于锚框的方法有何差别？",
+      "tags": [
+        "anchor free",
+        "目标检测",
+        "cv"
+      ]
+    },
+    {
+      "id": "aibee-map",
+      "sourceId": "nc-cv-intern21",
+      "company": "aibee",
+      "tracks": [
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "从 PR 曲线到 AP、mAP，怎样计算检测指标？",
+      "tags": [
+        "map",
+        "ap",
+        "pr",
+        "评估",
+        "目标检测"
+      ]
+    },
+    {
+      "id": "aibee-mae",
+      "sourceId": "nc-cv-intern21",
+      "company": "aibee",
+      "tracks": [
+        "cv",
+        "general"
+      ],
+      "category": "project",
+      "question": "年龄预测的输出怎样定义，MAE 如何计算？",
+      "tags": [
+        "年龄预测",
+        "mae",
+        "回归",
+        "cv"
+      ]
+    },
+    {
+      "id": "aibee-smote",
+      "sourceId": "nc-cv-intern21",
+      "company": "aibee",
+      "tracks": [
+        "general",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "Borderline-SMOTE 怎样合成边界样本？",
+      "tags": [
+        "smote",
+        "类别不平衡",
+        "过采样",
+        "数据"
+      ]
+    },
+    {
+      "id": "eleme-value-policy",
+      "sourceId": "nc-eleme-rl25",
+      "company": "alibaba",
+      "tracks": [
+        "rl"
+      ],
+      "category": "project",
+      "question": "你的任务为何采用值函数方法而非策略方法？",
+      "tags": [
+        "value based",
+        "policy based",
+        "dqn",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "eleme-dqn-input",
+      "sourceId": "nc-eleme-rl25",
+      "company": "alibaba",
+      "tracks": [
+        "rl"
+      ],
+      "category": "project",
+      "question": "DQN 的状态特征、网络输出和奖励怎样共同定义？",
+      "tags": [
+        "dqn",
+        "状态",
+        "动作",
+        "奖励",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "eleme-cluster-region",
+      "sourceId": "nc-eleme-rl25",
+      "company": "alibaba",
+      "tracks": [
+        "rl",
+        "general"
+      ],
+      "category": "project",
+      "question": "区域聚类应依据地理属性还是订单分布？如何验证？",
+      "tags": [
+        "聚类",
+        "调度",
+        "订单",
+        "建模"
+      ]
+    },
+    {
+      "id": "eleme-multihead-label",
+      "sourceId": "nc-eleme-rl25",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation",
+        "general"
+      ],
+      "category": "project",
+      "question": "多头预测各个标签如何定义，某个头不准时怎样排查？",
+      "tags": [
+        "多任务",
+        "label",
+        "预测",
+        "评估"
+      ]
+    },
+    {
+      "id": "eleme-route-window",
+      "sourceId": "nc-eleme-rl25",
+      "company": "alibaba",
+      "tracks": [
+        "rl",
+        "general"
+      ],
+      "category": "design",
+      "question": "配送路径同时有取送位置与时间窗时，怎样建模？",
+      "tags": [
+        "时间窗",
+        "路径规划",
+        "运筹",
+        "调度"
+      ]
+    },
+    {
+      "id": "eleme-transfer-dispatch",
+      "sourceId": "nc-eleme-rl25",
+      "company": "alibaba",
+      "tracks": [
+        "rl"
+      ],
+      "category": "design",
+      "question": "研究中的决策模型迁移到供需调度，会遇到哪些变化？",
+      "tags": [
+        "强化学习",
+        "迁移",
+        "供需",
+        "调度"
+      ]
+    },
+    {
+      "id": "wxg-adamw",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "general",
+        "llm"
+      ],
+      "category": "coding",
+      "question": "实现 AdamW，并说明权重衰减作用的位置。",
+      "tags": [
+        "adamw",
+        "权重衰减",
+        "优化器",
+        "coding"
+      ]
+    },
+    {
+      "id": "wxg-qlearning",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "rl"
+      ],
+      "category": "foundation",
+      "question": "Q-learning 如何更新，DQN 在此基础上改变了什么？",
+      "tags": [
+        "q learning",
+        "dqn",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "wxg-ppo-code",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "coding",
+      "question": "写出 PPO 的训练步骤及核心损失计算。",
+      "tags": [
+        "ppo",
+        "策略梯度",
+        "强化学习",
+        "coding"
+      ]
+    },
+    {
+      "id": "wxg-mdp-gamma",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "rl"
+      ],
+      "category": "coding",
+      "question": "给定奖励序列，怎样求使两条策略回报相等的折扣因子？",
+      "tags": [
+        "mdp",
+        "gamma",
+        "折扣因子",
+        "回报"
+      ]
+    },
+    {
+      "id": "wxg-rl-small",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "rl"
+      ],
+      "category": "design",
+      "question": "把大模型上的强化学习方案用于小模型时，需要调整什么？",
+      "tags": [
+        "强化学习",
+        "小模型",
+        "训练",
+        "迁移"
+      ]
+    },
+    {
+      "id": "wxg-precision",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "比较 BF16、FP16、FP32 的范围和精度，并做数值计算。",
+      "tags": [
+        "bf16",
+        "fp16",
+        "fp32",
+        "混合精度"
+      ]
+    },
+    {
+      "id": "wxg-sft-utilization",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "project",
+      "question": "如何估算 SFT 参数规模与显卡利用率？",
+      "tags": [
+        "sft",
+        "参数量",
+        "gpu",
+        "利用率"
+      ]
+    },
+    {
+      "id": "wxg-orthogonal",
+      "sourceId": "nc-wxg-rl",
+      "company": "tencent",
+      "tracks": [
+        "general"
+      ],
+      "category": "design",
+      "question": "怎样约束全连接层，让输出子空间的基尽量正交？",
+      "tags": [
+        "正交",
+        "线性代数",
+        "全连接",
+        "约束"
+      ]
+    },
+    {
+      "id": "byte-label-smooth",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "nlp",
+        "general"
+      ],
+      "category": "foundation",
+      "question": "标签平滑怎样构造目标分布，有什么作用？",
+      "tags": [
+        "label smoothing",
+        "标签平滑",
+        "分类",
+        "nlp"
+      ]
+    },
+    {
+      "id": "byte-crf-code",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "nlp"
+      ],
+      "category": "coding",
+      "question": "解释 CRF 的打分、训练目标与解码实现。",
+      "tags": [
+        "crf",
+        "序列标注",
+        "解码",
+        "nlp"
+      ]
+    },
+    {
+      "id": "byte-crf-hmm",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "nlp",
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "CRF 与 HMM 的建模假设和训练目标有何不同？",
+      "tags": [
+        "crf",
+        "hmm",
+        "序列标注",
+        "nlp"
+      ]
+    },
+    {
+      "id": "byte-beam-viterbi",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "nlp",
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "比较 Beam Search 与 Viterbi 的搜索范围和复杂度。",
+      "tags": [
+        "beam search",
+        "viterbi",
+        "解码",
+        "nlp"
+      ]
+    },
+    {
+      "id": "byte-tree-growth",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "general",
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "XGBoost 与 LightGBM 的树生长策略有哪些差别？",
+      "tags": [
+        "xgboost",
+        "lightgbm",
+        "树",
+        "boosting"
+      ]
+    },
+    {
+      "id": "byte-kmeans-code",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "实现 K-means 的一次完整迭代与终止条件。",
+      "tags": [
+        "kmeans",
+        "聚类",
+        "coding"
+      ]
+    },
+    {
+      "id": "byte-edit-distance",
+      "sourceId": "nc-nlp-intern20",
+      "company": "bytedance",
+      "tracks": [
+        "general",
+        "nlp"
+      ],
+      "category": "coding",
+      "question": "如何用动态规划计算两个字符串的编辑距离？",
+      "tags": [
+        "编辑距离",
+        "动态规划",
+        "nlp",
+        "coding"
+      ]
+    },
+    {
+      "id": "tx-stable-softmax",
+      "sourceId": "nc-nlp-intern20",
+      "company": "tencent",
+      "tracks": [
+        "nlp",
+        "general"
+      ],
+      "category": "coding",
+      "question": "Softmax 怎样实现才能避免数值上溢或下溢？",
+      "tags": [
+        "softmax",
+        "数值稳定",
+        "nlp",
+        "coding"
+      ]
+    },
+    {
+      "id": "dolby-nyquist",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "采样率与可恢复的信号频率范围有什么关系？",
+      "tags": [
+        "采样定理",
+        "奈奎斯特",
+        "音频",
+        "信号处理"
+      ]
+    },
+    {
+      "id": "dolby-fft-resolution",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "分帧长度与 FFT 点数怎样影响频率分辨率？",
+      "tags": [
+        "fft",
+        "分帧",
+        "频率分辨率",
+        "语音"
+      ]
+    },
+    {
+      "id": "dolby-fft-symmetry",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "实信号的 FFT 结果为什么存在冗余？",
+      "tags": [
+        "fft",
+        "共轭对称",
+        "信号处理",
+        "音频"
+      ]
+    },
+    {
+      "id": "dolby-causal-conv",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "design",
+      "question": "怎样实现适用于流式音频的因果卷积？",
+      "tags": [
+        "因果卷积",
+        "流式",
+        "音频",
+        "causal"
+      ]
+    },
+    {
+      "id": "dolby-receptive",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "如何计算卷积感受野，空洞率会怎样改变它？",
+      "tags": [
+        "感受野",
+        "空洞卷积",
+        "dilation",
+        "音频"
+      ]
+    },
+    {
+      "id": "dolby-complex",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "复数卷积怎样表达，和普通实数卷积有何联系？",
+      "tags": [
+        "复数卷积",
+        "频域",
+        "音频",
+        "complex"
+      ]
+    },
+    {
+      "id": "dolby-dprnn",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "DPRNN 怎样处理长时间音频中的依赖？",
+      "tags": [
+        "dprnn",
+        "语音分离",
+        "音频",
+        "长序列"
+      ]
+    },
+    {
+      "id": "dolby-oversuppress",
+      "sourceId": "nc-dolby-speech23",
+      "company": "dolby",
+      "tracks": [
+        "speech"
+      ],
+      "category": "project",
+      "question": "降噪过度损伤语音时，如何定位问题？",
+      "tags": [
+        "降噪",
+        "语音增强",
+        "过抑制",
+        "评估"
+      ]
+    },
+    {
+      "id": "geely-loss-weight",
+      "sourceId": "nc-car-nlp22",
+      "company": "geely",
+      "tracks": [
+        "nlp",
+        "general"
+      ],
+      "category": "design",
+      "question": "多任务损失的权重怎样自适应调整？",
+      "tags": [
+        "多任务",
+        "loss",
+        "权重",
+        "nlp"
+      ]
+    },
+    {
+      "id": "geely-bert-crf",
+      "sourceId": "nc-car-nlp22",
+      "company": "geely",
+      "tracks": [
+        "nlp"
+      ],
+      "category": "project",
+      "question": "BERT 序列标注去掉 CRF 后，如何判断是否仍够用？",
+      "tags": [
+        "bert",
+        "crf",
+        "序列标注",
+        "消融"
+      ]
+    },
+    {
+      "id": "geely-lstm-gates",
+      "sourceId": "nc-car-nlp22",
+      "company": "geely",
+      "tracks": [
+        "nlp",
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "LSTM 的各个门如何计算并更新状态？",
+      "tags": [
+        "lstm",
+        "门控",
+        "序列",
+        "nlp"
+      ]
+    },
+    {
+      "id": "geely-tokenization",
+      "sourceId": "nc-car-nlp22",
+      "company": "geely",
+      "tracks": [
+        "nlp",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "比较 BPE、WordPiece 与 SentencePiece 的分词思路。",
+      "tags": [
+        "bpe",
+        "wordpiece",
+        "sentencepiece",
+        "分词"
+      ]
+    },
+    {
+      "id": "byd-graph-smooth",
+      "sourceId": "nc-car-nlp22",
+      "company": "byd",
+      "tracks": [
+        "nlp",
+        "general"
+      ],
+      "category": "design",
+      "question": "图学习出现过平滑时可以怎样缓解？",
+      "tags": [
+        "gnn",
+        "过平滑",
+        "图学习",
+        "nlp"
+      ]
+    },
+    {
+      "id": "byd-annotation",
+      "sourceId": "nc-car-nlp22",
+      "company": "byd",
+      "tracks": [
+        "nlp"
+      ],
+      "category": "project",
+      "question": "半自动标注与规则后处理如何配合，怎样检验质量？",
+      "tags": [
+        "标注",
+        "规则",
+        "后处理",
+        "知识图谱"
+      ]
+    },
+    {
+      "id": "byd-weighted-sample",
+      "sourceId": "nc-car-nlp22",
+      "company": "byd",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "大量样本按给定概率有放回采样，如何优化查询复杂度？",
+      "tags": [
+        "采样",
+        "概率",
+        "alias",
+        "二分",
+        "coding"
+      ]
+    },
+    {
+      "id": "tx-eval-refresh",
+      "sourceId": "nc-tx-llm-sep",
+      "company": "tencent",
+      "tracks": [
+        "llm",
+        "multimodal"
+      ],
+      "category": "project",
+      "question": "自动化评测的题目和标准答案怎样构建、更新？",
+      "tags": [
+        "评测",
+        "数据集",
+        "自动化",
+        "多模态"
+      ]
+    },
+    {
+      "id": "tx-sft-fit",
+      "sourceId": "nc-tx-llm-sep",
+      "company": "tencent",
+      "tracks": [
+        "llm"
+      ],
+      "category": "project",
+      "question": "SFT 过拟合与欠拟合分别怎样识别和调整？",
+      "tags": [
+        "sft",
+        "过拟合",
+        "欠拟合",
+        "训练"
+      ]
+    },
+    {
+      "id": "tx-repetition",
+      "sourceId": "nc-tx-llm-sep",
+      "company": "tencent",
+      "tracks": [
+        "llm",
+        "nlp"
+      ],
+      "category": "project",
+      "question": "输出经常复读时，怎样区分数据、训练和解码问题？",
+      "tags": [
+        "重复",
+        "解码",
+        "训练数据",
+        "nlp",
+        "llm"
+      ]
+    },
+    {
+      "id": "tx-oom-train",
+      "sourceId": "nc-tx-llm-sep",
+      "company": "tencent",
+      "tracks": [
+        "infra",
+        "llm",
+        "multimodal"
+      ],
+      "category": "design",
+      "question": "训练发生 OOM 时，怎样定位显存占用并选择优化手段？",
+      "tags": [
+        "oom",
+        "显存",
+        "训练",
+        "多模态"
+      ]
+    },
+    {
+      "id": "tx-langgraph-limits",
+      "sourceId": "nc-tx-llm-sep",
+      "company": "tencent",
+      "tracks": [
+        "llm"
+      ],
+      "category": "design",
+      "question": "Agent 框架怎样分层，LangGraph 在落地时有哪些限制？",
+      "tags": [
+        "agent",
+        "langgraph",
+        "架构"
+      ]
+    },
+    {
+      "id": "tx-agent-communication",
+      "sourceId": "nc-tx-llm-sep",
+      "company": "tencent",
+      "tracks": [
+        "llm"
+      ],
+      "category": "design",
+      "question": "多个 Agent 如何通信，并维护一致的上下文与记忆？",
+      "tags": [
+        "multi agent",
+        "通信",
+        "上下文",
+        "memory"
+      ]
+    },
+    {
+      "id": "jd-mrope",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "multimodal",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "M-RoPE 如何表达多模态位置信息？",
+      "tags": [
+        "mrope",
+        "rope",
+        "位置编码",
+        "多模态"
+      ]
+    },
+    {
+      "id": "jd-video-rope",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "multimodal"
+      ],
+      "category": "foundation",
+      "question": "视频帧及图像 patch 的位置关系可以怎样编码？",
+      "tags": [
+        "视频",
+        "patch",
+        "位置编码",
+        "多模态"
+      ]
+    },
+    {
+      "id": "jd-vlm-specialist",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "design",
+      "question": "垂类任务如何选择通用 VLM 或专用视觉模型？",
+      "tags": [
+        "vlm",
+        "选型",
+        "视觉",
+        "多模态"
+      ]
+    },
+    {
+      "id": "jd-point-bbox",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "project",
+      "question": "视觉模型输出点坐标而非边界框，有什么取舍？",
+      "tags": [
+        "点坐标",
+        "bbox",
+        "定位",
+        "vlm"
+      ]
+    },
+    {
+      "id": "jd-sam2",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "cv",
+        "multimodal"
+      ],
+      "category": "foundation",
+      "question": "说明 SAM2 的分割建模思路。",
+      "tags": [
+        "sam2",
+        "分割",
+        "视频",
+        "cv"
+      ]
+    },
+    {
+      "id": "jd-synthetic-quality",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "multimodal",
+        "general"
+      ],
+      "category": "design",
+      "question": "算法生成的合成数据应该怎样评估质量？",
+      "tags": [
+        "合成数据",
+        "数据质量",
+        "评估",
+        "多模态"
+      ]
+    },
+    {
+      "id": "jd-distillation",
+      "sourceId": "nc-jd-vlm",
+      "company": "jd",
+      "tracks": [
+        "llm",
+        "multimodal"
+      ],
+      "category": "foundation",
+      "question": "模型蒸馏传递什么信息，怎样检验学生模型是否学到？",
+      "tags": [
+        "蒸馏",
+        "distillation",
+        "学生模型"
+      ]
+    },
+    {
+      "id": "mt-sft-rl-boundary",
+      "sourceId": "nc-mt-llm-july",
+      "company": "meituan",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "design",
+      "question": "已有推理 SFT 数据时，如何判断是否还需要强化学习？",
+      "tags": [
+        "sft",
+        "rl",
+        "reasoning",
+        "后训练"
+      ]
+    },
+    {
+      "id": "mt-rl-entry",
+      "sourceId": "nc-mt-llm-july",
+      "company": "meituan",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "project",
+      "question": "用什么证据判断模型已适合进入 RL 阶段？",
+      "tags": [
+        "强化学习",
+        "评估",
+        "sft",
+        "后训练"
+      ]
+    },
+    {
+      "id": "mt-workflow-agent",
+      "sourceId": "nc-mt-llm-july",
+      "company": "meituan",
+      "tracks": [
+        "llm"
+      ],
+      "category": "design",
+      "question": "Workflow 与 Agent 的控制方式和使用场景有何差异？",
+      "tags": [
+        "workflow",
+        "agent",
+        "编排"
+      ]
+    },
+    {
+      "id": "mt-memory-rag",
+      "sourceId": "nc-mt-llm-july",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "nlp"
+      ],
+      "category": "design",
+      "question": "长期记忆与 RAG 分别保存什么信息，什么时候使用？",
+      "tags": [
+        "memory",
+        "rag",
+        "检索",
+        "agent"
+      ]
+    },
+    {
+      "id": "mt-tensor-shapes",
+      "sourceId": "nc-mt-llm-july",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "infra"
+      ],
+      "category": "coding",
+      "question": "从 token 输入开始，逐层说明推理张量的维度变化。",
+      "tags": [
+        "tensor",
+        "shape",
+        "transformer",
+        "推理"
+      ]
+    },
+    {
+      "id": "mt-grpo-memory",
+      "sourceId": "nc-mt-llm-july",
+      "company": "meituan",
+      "tracks": [
+        "rl",
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "估算 GRPO 训练显存时应计算哪些部分？",
+      "tags": [
+        "grpo",
+        "显存",
+        "训练",
+        "rollout"
+      ]
+    },
+    {
+      "id": "ali-embedding-dim",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "推荐特征的 embedding 维度怎样选择与验证？",
+      "tags": [
+        "embedding",
+        "维度",
+        "推荐",
+        "特征"
+      ]
+    },
+    {
+      "id": "ali-longtail",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "推荐场景下长尾物品如何学习和评估？",
+      "tags": [
+        "长尾",
+        "采样",
+        "推荐"
+      ]
+    },
+    {
+      "id": "ali-din-dien",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "DIN 与 DIEN 怎样分别刻画用户兴趣？",
+      "tags": [
+        "din",
+        "dien",
+        "兴趣演化",
+        "推荐"
+      ]
+    },
+    {
+      "id": "ali-ad-bidding",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "比较 CPC、oCPM 与 oCPC 的优化目标。",
+      "tags": [
+        "cpc",
+        "ocpm",
+        "ocpc",
+        "广告",
+        "出价"
+      ]
+    },
+    {
+      "id": "ali-budget-pacing",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation",
+        "rl"
+      ],
+      "category": "design",
+      "question": "广告预算受限时，如何控制投放节奏和流量分配？",
+      "tags": [
+        "pacing",
+        "预算",
+        "广告",
+        "分配"
+      ]
+    },
+    {
+      "id": "ali-gsp-vcg",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "GSP 和 VCG 拍卖机制有哪些关键差异？",
+      "tags": [
+        "gsp",
+        "vcg",
+        "拍卖",
+        "广告"
+      ]
+    },
+    {
+      "id": "ali-click-fraud",
+      "sourceId": "nc-ali-rec-march",
+      "company": "alibaba",
+      "tracks": [
+        "recommendation",
+        "general"
+      ],
+      "category": "design",
+      "question": "点击欺诈应怎样识别和验证？",
+      "tags": [
+        "反作弊",
+        "点击欺诈",
+        "广告",
+        "风控"
+      ]
+    },
+    {
+      "id": "jd-ranking-objective",
+      "sourceId": "nc-jd-ranking",
+      "company": "jd",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "Pointwise、Pairwise、Listwise 排序目标如何取舍？",
+      "tags": [
+        "pointwise",
+        "pairwise",
+        "listwise",
+        "排序"
+      ]
+    },
+    {
+      "id": "jd-classification-mse",
+      "sourceId": "nc-jd-ranking",
+      "company": "jd",
+      "tracks": [
+        "general",
+        "recommendation"
+      ],
+      "category": "foundation",
+      "question": "分类训练采用 MSE 会带来什么问题？",
+      "tags": [
+        "mse",
+        "分类",
+        "损失",
+        "推荐"
+      ]
+    },
+    {
+      "id": "jd-din-attention",
+      "sourceId": "nc-jd-ranking",
+      "company": "jd",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "coding",
+      "question": "DIN 的注意力权重怎样由候选物品和历史行为计算？",
+      "tags": [
+        "din",
+        "attention",
+        "推荐",
+        "历史行为"
+      ]
+    },
+    {
+      "id": "jd-long-history",
+      "sourceId": "nc-jd-ranking",
+      "company": "jd",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "行为序列很长时，如何建模近期行为的重要性？",
+      "tags": [
+        "长序列",
+        "行为序列",
+        "推荐",
+        "时间"
+      ]
+    },
+    {
+      "id": "jd-auc-limit",
+      "sourceId": "nc-jd-ranking",
+      "company": "jd",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "design",
+      "question": "只看 AUC 会遗漏哪些推荐效果问题？",
+      "tags": [
+        "auc",
+        "评估",
+        "推荐",
+        "指标"
+      ]
+    },
+    {
+      "id": "jd-bn-implementation",
+      "sourceId": "nc-jd-ranking",
+      "company": "jd",
+      "tracks": [
+        "general",
+        "infra"
+      ],
+      "category": "coding",
+      "question": "实现 BatchNorm 的训练与推理步骤并说明参数。",
+      "tags": [
+        "batchnorm",
+        "训练",
+        "推理",
+        "coding"
+      ]
+    },
+    {
+      "id": "vivo-wfst",
+      "sourceId": "nc-vivo-wfst",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "基于 WFST 的 ASR 如何从声学特征得到词序列？",
+      "tags": [
+        "wfst",
+        "asr",
+        "解码",
+        "语音识别"
+      ]
+    },
+    {
+      "id": "vivo-hclg",
+      "sourceId": "nc-vivo-wfst",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "HCLG 解码图中各部分分别表达什么？",
+      "tags": [
+        "hclg",
+        "wfst",
+        "解码",
+        "语音"
+      ]
+    },
+    {
+      "id": "vivo-force-align",
+      "sourceId": "nc-vivo-wfst",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "project",
+      "question": "强制对齐如何用于口语评测，训练时有哪些难点？",
+      "tags": [
+        "强制对齐",
+        "口语评测",
+        "gmm",
+        "语音"
+      ]
+    },
+    {
+      "id": "vivo-gmm-dnn",
+      "sourceId": "nc-vivo-wfst",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "GMM-HMM 与 DNN-HMM 在声学建模上有何区别？",
+      "tags": [
+        "gmm",
+        "hmm",
+        "dnn",
+        "声学模型"
+      ]
+    },
+    {
+      "id": "vivo-lpc",
+      "sourceId": "nc-vivo-wfst",
+      "company": "vivo",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "LPC 特征如何描述语音信号，与 MFCC 有什么不同？",
+      "tags": [
+        "lpc",
+        "mfcc",
+        "声学特征",
+        "语音"
+      ]
+    },
+    {
+      "id": "zyb-ctc-blank",
+      "sourceId": "nc-zyb-speech25",
+      "company": "zuoyebang",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "CTC 如何聚合对齐路径，blank 符号有什么作用？",
+      "tags": [
+        "ctc",
+        "blank",
+        "损失",
+        "语音识别"
+      ]
+    },
+    {
+      "id": "zyb-timestamps",
+      "sourceId": "nc-zyb-speech25",
+      "company": "zuoyebang",
+      "tracks": [
+        "speech"
+      ],
+      "category": "design",
+      "question": "转写结果的字词时间戳可以怎样得到？",
+      "tags": [
+        "时间戳",
+        "对齐",
+        "asr",
+        "语音"
+      ]
+    },
+    {
+      "id": "zyb-overlap",
+      "sourceId": "nc-zyb-speech25",
+      "company": "zuoyebang",
+      "tracks": [
+        "speech"
+      ],
+      "category": "design",
+      "question": "多人重叠说话时，如何改进识别或分离流程？",
+      "tags": [
+        "重叠语音",
+        "说话人分离",
+        "pyannote",
+        "asr"
+      ]
+    },
+    {
+      "id": "zyb-sensevoice",
+      "sourceId": "nc-zyb-speech25",
+      "company": "zuoyebang",
+      "tracks": [
+        "speech"
+      ],
+      "category": "foundation",
+      "question": "介绍 SenseVoice 的建模思路与大小模型迁移考量。",
+      "tags": [
+        "sensevoice",
+        "asr",
+        "模型迁移",
+        "语音"
+      ]
+    },
+    {
+      "id": "zyb-dynamic-batch",
+      "sourceId": "nc-zyb-speech25",
+      "company": "zuoyebang",
+      "tracks": [
+        "speech",
+        "infra"
+      ],
+      "category": "design",
+      "question": "多节点训练中的音频长度不同，如何组织动态 batch？",
+      "tags": [
+        "dynamic batch",
+        "变长",
+        "分布式训练",
+        "语音"
+      ]
+    },
+    {
+      "id": "zyb-ddp-dp",
+      "sourceId": "nc-zyb-speech25",
+      "company": "zuoyebang",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "DP 与 DDP 怎样组织计算和梯度同步？",
+      "tags": [
+        "ddp",
+        "dp",
+        "分布式训练",
+        "梯度"
+      ]
+    },
+    {
+      "id": "byte-reward-collapse",
+      "sourceId": "nc-byte-rl-collapse",
+      "company": "bytedance",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "project",
+      "question": "奖励信号坍缩时会怎样影响训练，如何定位？",
+      "tags": [
+        "奖励坍缩",
+        "reward",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "byte-online-offline",
+      "sourceId": "nc-byte-rl-collapse",
+      "company": "bytedance",
+      "tracks": [
+        "rl"
+      ],
+      "category": "foundation",
+      "question": "在线与离线强化学习如何区分，你的项目属于哪种？",
+      "tags": [
+        "offline",
+        "online",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "byte-reward-conflict",
+      "sourceId": "nc-byte-rl-collapse",
+      "company": "bytedance",
+      "tracks": [
+        "rl"
+      ],
+      "category": "design",
+      "question": "多个奖励目标相互冲突时，怎样设计优化方案？",
+      "tags": [
+        "多目标",
+        "reward",
+        "强化学习",
+        "优化"
+      ]
+    },
+    {
+      "id": "byte-grpo-reduction",
+      "sourceId": "nc-byte-rl-collapse",
+      "company": "bytedance",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "GRPO 中裁剪与最终聚合分别起什么作用？",
+      "tags": [
+        "grpo",
+        "clip",
+        "mean",
+        "损失"
+      ]
+    },
+    {
+      "id": "byte-water2d",
+      "sourceId": "nc-byte-rl-collapse",
+      "company": "bytedance",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "二维高度网格怎样计算可积蓄的雨水？",
+      "tags": [
+        "优先队列",
+        "接雨水",
+        "网格",
+        "coding"
+      ]
+    },
+    {
+      "id": "byte-tool-errors",
+      "sourceId": "nc-byte-agent-reward",
+      "company": "bytedance",
+      "tracks": [
+        "llm",
+        "rl"
+      ],
+      "category": "design",
+      "question": "工具调用经常出错，怎样判断应改提示、SFT 还是 RL？",
+      "tags": [
+        "工具调用",
+        "function calling",
+        "sft",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "byte-critic-rm",
+      "sourceId": "nc-byte-agent-reward",
+      "company": "bytedance",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "foundation",
+      "question": "PPO 中 reward model 与 critic 的职责为何不同？",
+      "tags": [
+        "ppo",
+        "reward model",
+        "critic",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "byte-tool-reward",
+      "sourceId": "nc-byte-agent-reward",
+      "company": "bytedance",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "design",
+      "question": "用 GRPO 改进工具调用时，怎样定义结果与过程奖励？",
+      "tags": [
+        "grpo",
+        "过程奖励",
+        "工具调用",
+        "agent"
+      ]
+    },
+    {
+      "id": "byte-memory-design",
+      "sourceId": "nc-byte-agent-reward",
+      "company": "bytedance",
+      "tracks": [
+        "llm"
+      ],
+      "category": "design",
+      "question": "Agent 的记忆怎样存储、更新与检索？",
+      "tags": [
+        "agent",
+        "memory",
+        "记忆",
+        "检索"
+      ]
+    },
+    {
+      "id": "byte-ppt-parse",
+      "sourceId": "nc-byte-agent-reward",
+      "company": "bytedance",
+      "tracks": [
+        "llm",
+        "multimodal"
+      ],
+      "category": "project",
+      "question": "PPT 解析如何改进，怎样验证改进确实有效？",
+      "tags": [
+        "ppt",
+        "解析",
+        "文档",
+        "多模态"
+      ]
+    },
+    {
+      "id": "mt-rmsnorm",
+      "sourceId": "nc-mt-posttrain25",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "nlp"
+      ],
+      "category": "foundation",
+      "question": "写出 RMSNorm 并比较它与 LayerNorm。",
+      "tags": [
+        "rmsnorm",
+        "layernorm",
+        "归一化",
+        "llm"
+      ]
+    },
+    {
+      "id": "mt-swiglu",
+      "sourceId": "nc-mt-posttrain25",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "nlp"
+      ],
+      "category": "foundation",
+      "question": "SwiGLU 的门控计算怎样实现？",
+      "tags": [
+        "swiglu",
+        "激活函数",
+        "门控",
+        "llm"
+      ]
+    },
+    {
+      "id": "mt-vocab-loss",
+      "sourceId": "nc-mt-posttrain25",
+      "company": "meituan",
+      "tracks": [
+        "llm",
+        "nlp"
+      ],
+      "category": "coding",
+      "question": "给定词表概率，怎样计算语言模型单步损失？",
+      "tags": [
+        "交叉熵",
+        "词表",
+        "语言模型",
+        "coding"
+      ]
+    },
+    {
+      "id": "mt-grpo-instability",
+      "sourceId": "nc-mt-posttrain25",
+      "company": "meituan",
+      "tracks": [
+        "rl",
+        "llm"
+      ],
+      "category": "project",
+      "question": "SFT 后做 GRPO 仍然震荡时，如何分析裁剪与优势估计？",
+      "tags": [
+        "grpo",
+        "clip",
+        "advantage",
+        "训练稳定性"
+      ]
+    },
+    {
+      "id": "mt-grpo-cost",
+      "sourceId": "nc-mt-posttrain25",
+      "company": "meituan",
+      "tracks": [
+        "rl",
+        "infra"
+      ],
+      "category": "project",
+      "question": "怎样比较 RL 的收益、单步时间和算力成本？",
+      "tags": [
+        "强化学习",
+        "成本",
+        "评估",
+        "吞吐"
+      ]
+    },
+    {
+      "id": "mt-flux-lora",
+      "sourceId": "nc-mt-posttrain25",
+      "company": "meituan",
+      "tracks": [
+        "multimodal",
+        "cv"
+      ],
+      "category": "foundation",
+      "question": "FLUX 的生成思路是什么，LoRA 在其中适配哪些部分？",
+      "tags": [
+        "flux",
+        "lora",
+        "图像生成",
+        "多模态"
+      ]
+    },
+    {
+      "id": "baidu-mmoe-code",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "coding",
+      "question": "实现 MMoE 的专家、门控与任务输出。",
+      "tags": [
+        "mmoe",
+        "多任务",
+        "推荐",
+        "coding"
+      ]
+    },
+    {
+      "id": "baidu-ple-business",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "recommendation"
+      ],
+      "category": "project",
+      "question": "为什么业务需要 PLE，各层如何组织共享与独占专家？",
+      "tags": [
+        "ple",
+        "多任务",
+        "专家",
+        "推荐"
+      ]
+    },
+    {
+      "id": "baidu-auc-scale",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "recommendation",
+        "general"
+      ],
+      "category": "foundation",
+      "question": "所有预测分数都乘二，AUC 是否变化，为什么？",
+      "tags": [
+        "auc",
+        "单调变换",
+        "排序",
+        "评估"
+      ]
+    },
+    {
+      "id": "baidu-trpo-ppo",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "rl"
+      ],
+      "category": "foundation",
+      "question": "TRPO 与 PPO 分别怎样限制策略更新幅度？",
+      "tags": [
+        "trpo",
+        "ppo",
+        "信赖域",
+        "强化学习"
+      ]
+    },
+    {
+      "id": "baidu-kv-concurrency",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "高并发请求下如何控制 KV Cache 的资源开销？",
+      "tags": [
+        "kv cache",
+        "并发",
+        "显存",
+        "推理"
+      ]
+    },
+    {
+      "id": "baidu-generative-rec",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "recommendation",
+        "llm"
+      ],
+      "category": "design",
+      "question": "把推荐改为生成任务时，业务链路会怎样变化？",
+      "tags": [
+        "生成式推荐",
+        "llm",
+        "推荐",
+        "建模"
+      ]
+    },
+    {
+      "id": "baidu-search-bounds",
+      "sourceId": "nc-baidu-search-rounds",
+      "company": "baidu",
+      "tracks": [
+        "general"
+      ],
+      "category": "coding",
+      "question": "在有序数组中查找某个值的首尾出现位置。",
+      "tags": [
+        "二分",
+        "边界",
+        "数组",
+        "coding"
+      ]
+    },
+    {
+      "id": "ali-tp-graph",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "project",
+      "question": "TP 配合 CUDA Graph 出现超时时，如何做最小复现？",
+      "tags": [
+        "tp",
+        "cuda graph",
+        "超时",
+        "排障"
+      ]
+    },
+    {
+      "id": "ali-buffer-state",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "design",
+      "question": "多卡通信如何判断发送与接收缓冲区的状态？",
+      "tags": [
+        "多卡",
+        "通信",
+        "buffer",
+        "同步"
+      ]
+    },
+    {
+      "id": "ali-splitk-determinism",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "Split-K GEMM 为什么可能影响计算确定性？",
+      "tags": [
+        "split k",
+        "gemm",
+        "确定性",
+        "浮点"
+      ]
+    },
+    {
+      "id": "ali-persistent-small",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "project",
+      "question": "Persistent kernel 在小矩阵上利用率差，如何解释？",
+      "tags": [
+        "persistent kernel",
+        "gemm",
+        "shape",
+        "利用率"
+      ]
+    },
+    {
+      "id": "ali-shape-dispatch",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "design",
+      "question": "动态 shape 如何选择计算路径并设计回退？",
+      "tags": [
+        "dynamic shape",
+        "dispatch",
+        "回退",
+        "算子"
+      ]
+    },
+    {
+      "id": "ali-decode-sync",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "project",
+      "question": "Decode 的 CPU/GPU 同步和反复拷贝如何优化？",
+      "tags": [
+        "decode",
+        "cpu",
+        "gpu",
+        "同步",
+        "拷贝"
+      ]
+    },
+    {
+      "id": "ali-ring-tree",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra"
+      ],
+      "category": "foundation",
+      "question": "Ring 和 Tree AllReduce 如何权衡吞吐与延迟？",
+      "tags": [
+        "nccl",
+        "allreduce",
+        "ring",
+        "tree"
+      ]
+    },
+    {
+      "id": "ali-pd-kv-transfer",
+      "sourceId": "nc-ali-infra-sep",
+      "company": "alibaba",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "PD 分离时，KV Cache 怎样高效传递到 Decode 节点？",
+      "tags": [
+        "pd disaggregation",
+        "kv cache",
+        "通信",
+        "推理"
+      ]
+    },
+    {
+      "id": "iflytek-heterogeneous",
+      "sourceId": "nc-iflytek-infra26",
+      "company": "iflytek",
+      "tracks": [
+        "infra"
+      ],
+      "category": "project",
+      "question": "推理框架迁移到异构算力时，怎样处理适配问题？",
+      "tags": [
+        "异构",
+        "昇腾",
+        "cuda",
+        "cann",
+        "适配"
+      ]
+    },
+    {
+      "id": "iflytek-gpu-pool",
+      "sourceId": "nc-iflytek-infra26",
+      "company": "iflytek",
+      "tracks": [
+        "infra"
+      ],
+      "category": "design",
+      "question": "怎样在 GPU 池化中权衡资源隔离与利用率？",
+      "tags": [
+        "gpu",
+        "池化",
+        "mig",
+        "mps",
+        "资源隔离"
+      ]
+    },
+    {
+      "id": "iflytek-autoscale",
+      "sourceId": "nc-iflytek-infra26",
+      "company": "iflytek",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "推理服务如何弹性扩缩容并处理模型冷启动？",
+      "tags": [
+        "扩缩容",
+        "冷启动",
+        "服务",
+        "推理"
+      ]
+    },
+    {
+      "id": "iflytek-engine-choice",
+      "sourceId": "nc-iflytek-infra26",
+      "company": "iflytek",
+      "tracks": [
+        "infra",
+        "llm"
+      ],
+      "category": "design",
+      "question": "选择 vLLM 或 SGLang 时，怎样比较模块和瓶颈？",
+      "tags": [
+        "vllm",
+        "sglang",
+        "推理引擎",
+        "profiling"
+      ]
+    },
+    {
+      "id": "iflytek-ai-coding",
+      "sourceId": "nc-iflytek-infra26",
+      "company": "iflytek",
+      "tracks": [
+        "infra",
+        "general"
+      ],
+      "category": "project",
+      "question": "AI Coding 可以怎样辅助底层性能开发？",
+      "tags": [
+        "ai coding",
+        "算子",
+        "benchmark",
+        "开发"
+      ]
+    }
+  ]
+}

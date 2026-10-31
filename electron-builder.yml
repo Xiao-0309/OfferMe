@@ -1,0 +1,62 @@
+# Modified for OfferMe; derived from MeetingCopilot. See UPSTREAM.md.
+appId: io.github.xiao0309.offerme
+productName: OfferMe
+copyright: Copyright © 2026 OfferMe contributors; includes Apache-2.0 code by JWM0203
+
+directories:
+  buildResources: build
+  output: release
+files:
+  - out/main/**
+  - out/preload/**
+  - out/renderer/**
+  - package.json
+asar: true
+extraResources:
+  - from: resources/test-audio
+    to: resources/test-audio
+  - from: resources/test-image.png
+    to: resources/test-image.png
+  - from: resources/tray
+    to: resources/tray
+  - from: docs
+    to: docs
+  - from: LICENSE
+    to: docs/LICENSE
+  - from: UPSTREAM.md
+    to: docs/UPSTREAM.md
+  - from: CHANGELOG.md
+    to: docs/CHANGELOG.md
+  - from: CONTRIBUTING.md
+    to: docs/CONTRIBUTING.md
+  - from: NOTICE
+    to: NOTICE
+mac:
+  icon: build/icon.icns
+  minimumSystemVersion: '13.0.0'
+  category: public.app-category.productivity
+  target:
+    - target: zip
+      arch: [arm64]
+  extraResources:
+    - from: build/native/audio-route
+      to: native/audio-route
+  extendInfo:
+    NSMicrophoneUsageDescription: OfferMe captures selected audio inputs for cloud transcription.
+win:
+  icon: build/icon.ico
+  artifactName: ${productName}-${version}-win-${arch}.${ext}
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+nsis:
+  oneClick: true
+  perMachine: false
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: OfferMe
+  deleteAppDataOnUninstall: false
+portable:
+  artifactName: ${productName}-${version}-win-${arch}-portable.${ext}

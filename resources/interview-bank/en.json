@@ -1,0 +1,372 @@
+{
+  "questions": {
+    "byte-auc": "Why did your project use AUC? Explain how to calculate and interpret it.",
+    "byte-cold-start": "How would you handle recommendation cold start, and where could an LLM help?",
+    "byte-contrastive": "Write the contrastive loss used in your project and explain its construction.",
+    "byte-norm": "Compare LayerNorm and BatchNorm and explain when each is appropriate.",
+    "byte-flow": "Compare DDPM and Flow Matching through their training objectives.",
+    "byte-reparameterize": "Explain reparameterization in DDPM and why it is useful.",
+    "byte-coin": "Count the combinations of given coin denominations that sum to a target. How do you avoid duplicates?",
+    "byte-feature": "How did you build recommendation samples, labels and features? What would you change?",
+    "byte-uauc": "How does global AUC differ from user-grouped AUC?",
+    "byte-fm": "Explain the FM interaction term in DeepFM and its computational complexity.",
+    "byte-cross-entropy": "Derive cross-entropy loss from maximum likelihood estimation.",
+    "meituan-sequence": "How would you incorporate time and location into user behavior sequences?",
+    "meituan-rag": "How did you choose your RAG knowledge-base size, and how would you improve retrieval recall?",
+    "meituan-lbs": "How would you model stores and products separately for local services?",
+    "meituan-rl-loss": "Explain the modeling contribution in your RL paper and how gradients propagate through its loss.",
+    "meituan-reward": "How would you tune reward weights in multi-objective reinforcement learning?",
+    "meituan-transfer": "What is missing before your research approach can serve a production business?",
+    "baidu-blip": "Compare the architecture and training of BLIP and BLIP-2.",
+    "baidu-clip": "How is CLIP's image-text training objective constructed?",
+    "baidu-vit": "Explain ViT input processing and the tensor shapes at each stage.",
+    "kuaishou-video": "Design a video foundation-model application and explain how it handles multimodal inputs.",
+    "ali-rag-chain": "Walk through your RAG pipeline, model choices and personal contributions.",
+    "ali-multirecall": "How would you organize multiple retrieval channels? What belongs in retrieval versus ranking?",
+    "ali-mrr": "Which retrieval metrics would you use in addition to MRR?",
+    "ali-mm-recall": "How would you diagnose visually similar but semantically incorrect image-text retrieval results?",
+    "ali-hybrid": "How would you make BM25 and vector similarity scores comparable in hybrid retrieval?",
+    "ali-lora": "Explain LoRA initialization, rank selection and merging weights for inference.",
+    "ali-dpo": "How do DPO's data and training differ from online sampling in PPO?",
+    "tx-rollout": "How would you define losses and final rewards for multi-turn tool rollouts?",
+    "tx-grpo": "Compare GRPO's limitations and GSPO's changes at the objective and optimization levels.",
+    "tx-agent-eval": "How would you isolate the contributions of the model, knowledge base, tools and routing in an agent?",
+    "tx-mha": "Implement multi-head attention, explaining tensor transposes and memory contiguity.",
+    "tx-prefill": "What inference problems does chunked prefill address?",
+    "tx-collectives": "Explain the communication semantics of Reduce-Scatter and All-to-All.",
+    "tx-cuda": "How would you reduce CUDA kernel launch overhead and resolve bank conflicts?",
+    "tx-topology": "How would you plan distributed inference across NVLink and RDMA connections?",
+    "xhs-loss-ranking": "Training loss falls but ranking quality gets worse. How would you diagnose the objective?",
+    "xhs-false-negative": "What do false negatives do to InfoNCE training, and how can you mitigate them?",
+    "xhs-nan": "How would you debug overflow and NaNs in FP16 pooling operations?",
+    "amazon-assumptions": "Choose a research project and explain its modeling assumptions and validation approach.",
+    "amazon-scale": "How would you turn an experimental algorithm into a reliable, scalable system?",
+    "amazon-depth": "Explain a machine learning method you know well, its limitations and its alternatives.",
+    "ms-sort": "Implement an O(n log n) sorting algorithm and analyze complexity and edge cases.",
+    "ms-ml-pipeline": "How would you evaluate, profile and optimize your ML training pipeline?",
+    "ms-statistics": "How would you use statistical testing to evaluate an observed improvement?",
+    "ms-data-structures": "Choose a data structure for a problem, explain the tradeoffs and test edge cases.",
+    "baidu-ner": "How would you model nested named entities?",
+    "baidu-role": "How would you build data so that a single fine-tuning run supports multiple roles?",
+    "baidu-pretrain": "Compare pretraining and instruction tuning in objectives and data.",
+    "baidu-bert": "Explain BERT's pretraining tasks and RoBERTa's changes.",
+    "baidu-badcase": "How would you use failure-case analysis to validate project improvements?",
+    "tx-kmeans": "What are K-means' key parameters, and how would you choose the cluster count?",
+    "tx-ensemble": "Compare bagging and boosting. How does a random forest affect bias and variance?",
+    "tx-threshold": "Given predicted probabilities, how would you select the threshold that maximizes F1?",
+    "mt-gradients": "How would you diagnose and address vanishing or exploding gradients?",
+    "mt-lr": "Compare logistic regression and XGBoost for a recommendation application.",
+    "ali-nms": "Explain non-maximum suppression and discuss possible improvements.",
+    "ali-focal": "Explain the purpose of focal loss and implement it.",
+    "ali-pix2pix": "How are the generator and PatchGAN discriminator designed in pix2pix?",
+    "ali-anchor": "Explain the design and role of anchors in Faster R-CNN.",
+    "sense-small": "How would you improve poor small-object detection performance?",
+    "sense-nms": "Implement class-aware NMS and discuss whether suppression should cross class boundaries.",
+    "speech-process": "Describe your project's audio preprocessing pipeline and tools.",
+    "speech-tdnn": "Compare TDNN and ECAPA-TDNN, and explain equal error rate.",
+    "speech-speaker": "Which losses and metrics did your speaker recognition project use, and how did you tune it?",
+    "speech-whisper": "How does Whisper use Transformers to process speech?",
+    "speech-vits": "Explain VITS's approach to speech synthesis.",
+    "vivo-mfcc": "Explain MFCC extraction and the role of delta features.",
+    "vivo-doa": "Explain the direction-of-arrival estimation approach used in your project.",
+    "vivo-viterbi": "Does Viterbi decoding in an HMM find the same optimum as exhaustive path search?",
+    "mt-flash": "How does FlashAttention change attention's memory access pattern?",
+    "mt-kernel-benchmark": "How would you benchmark a faster kernel while controlling for hardware precision differences?",
+    "ant-batching": "What dimensions should organize requests in continuous batching?",
+    "ant-gpu-memory": "Design a GPU memory manager for an inference service.",
+    "ali-coalescing": "Explain coalesced memory access and shared-memory bank conflicts.",
+    "ali-asymmetric": "How does asymmetric quantization change matrix computation?",
+    "ali-wmma": "Which interfaces expose Tensor Cores, and how do WMMA and MMA differ?",
+    "ali-softmax2d": "Implement a numerically stable CUDA softmax along one dimension of a matrix.",
+    "ks-pipeline-grad": "How are gradients computed and passed between pipeline-parallel stages?",
+    "ks-prefix-compress": "Which costs do prefix caching and KV cache compression each address?",
+    "byte-detector-family": "Compare the detection pipelines of the R-CNN family, YOLO and SSD.",
+    "byte-ssd-anchor": "How do SSD and YOLOv3 define and use anchor boxes?",
+    "byte-deeplab": "Explain DeepLabv3+'s architecture and segmentation pipeline.",
+    "byte-aspp": "How does ASPP capture context at multiple scales?",
+    "byte-resnet-channel": "How does ResNet handle mismatched channel counts in a residual connection?",
+    "byte-class-imbalance": "How would you choose a strategy for severely imbalanced classification data?",
+    "byte-virtual-destructor": "Why do polymorphic C++ classes often need a virtual destructor?",
+    "byte-python-generator": "How do Python generators and decorators work?",
+    "didi-im2col": "How does im2col transform convolution into matrix multiplication?",
+    "didi-few-shot": "How would you build a vision model with very few labeled examples?",
+    "aibee-anchorfree": "How does anchor-free detection differ from anchor-based detection?",
+    "aibee-map": "Explain the path from a precision-recall curve to AP and mAP.",
+    "aibee-mae": "How would you define an age-prediction output and calculate MAE?",
+    "aibee-smote": "How does Borderline-SMOTE synthesize examples near class boundaries?",
+    "eleme-value-policy": "Why did your task use a value-based rather than a policy-based method?",
+    "eleme-dqn-input": "How do you jointly define DQN state features, network outputs and rewards?",
+    "eleme-cluster-region": "Should delivery regions be clustered by geography or order distribution? How would you validate this?",
+    "eleme-multihead-label": "How would you define labels for a multi-head predictor and debug an inaccurate head?",
+    "eleme-route-window": "How would you model delivery routing with pickup locations, dropoffs and time windows?",
+    "eleme-transfer-dispatch": "What changes when transferring a research decision model to supply-demand dispatch?",
+    "wxg-adamw": "Implement AdamW and explain where decoupled weight decay is applied.",
+    "wxg-qlearning": "Explain the Q-learning update and what DQN changes.",
+    "wxg-ppo-code": "Write the PPO training steps and compute its core losses.",
+    "wxg-mdp-gamma": "Given reward sequences, find the discount factor that makes two policies' returns equal.",
+    "wxg-rl-small": "What would you adjust when applying an LLM reinforcement learning approach to a smaller model?",
+    "wxg-precision": "Compare BF16, FP16 and FP32 in numerical range and precision, using an example.",
+    "wxg-sft-utilization": "How would you estimate parameter counts and GPU utilization for supervised fine-tuning?",
+    "wxg-orthogonal": "How would you constrain a fully connected layer to encourage an orthogonal output basis?",
+    "byte-label-smooth": "How does label smoothing construct a target distribution, and why is it useful?",
+    "byte-crf-code": "Explain and implement CRF scoring, its training objective and decoding.",
+    "byte-crf-hmm": "Compare the modeling assumptions and training objectives of CRFs and HMMs.",
+    "byte-beam-viterbi": "Compare the search space and complexity of beam search and Viterbi decoding.",
+    "byte-tree-growth": "How do XGBoost and LightGBM differ in tree growth strategy?",
+    "byte-kmeans-code": "Implement a full K-means iteration and its termination criteria.",
+    "byte-edit-distance": "Use dynamic programming to compute the edit distance between two strings.",
+    "tx-stable-softmax": "How would you implement softmax to avoid numerical overflow or underflow?",
+    "dolby-nyquist": "How does sampling rate constrain the recoverable signal frequencies?",
+    "dolby-fft-resolution": "How do frame length and FFT size affect frequency resolution?",
+    "dolby-fft-symmetry": "Why is part of a real signal's FFT redundant?",
+    "dolby-causal-conv": "How would you implement causal convolution for streaming audio?",
+    "dolby-receptive": "How do you calculate a convolution's receptive field, and how does dilation change it?",
+    "dolby-complex": "How is complex convolution expressed in terms of real-valued convolutions?",
+    "dolby-dprnn": "How does DPRNN capture dependencies in long audio sequences?",
+    "dolby-oversuppress": "How would you diagnose speech damage caused by excessive noise suppression?",
+    "geely-loss-weight": "How would you adapt the weights of a multi-task loss?",
+    "geely-bert-crf": "How would you evaluate whether a BERT sequence tagger still works well after removing its CRF?",
+    "geely-lstm-gates": "Explain how LSTM gates compute and update the hidden and cell states.",
+    "geely-tokenization": "Compare BPE, WordPiece and SentencePiece tokenization.",
+    "byd-graph-smooth": "How would you mitigate oversmoothing in graph learning?",
+    "byd-annotation": "How would you combine assisted labeling with rule-based postprocessing and verify quality?",
+    "byd-weighted-sample": "How would you efficiently sample with replacement from many weighted examples?",
+    "tx-eval-refresh": "How would you create and refresh questions and reference answers for automated evaluation?",
+    "tx-sft-fit": "How would you distinguish and address underfitting and overfitting in SFT?",
+    "tx-repetition": "How would you trace repetitive generation to data, training or decoding?",
+    "tx-oom-train": "How would you profile memory use and choose optimizations after a training OOM?",
+    "tx-langgraph-limits": "How would you structure an agent framework, and what limits might LangGraph have in deployment?",
+    "tx-agent-communication": "How should multiple agents communicate while keeping context and memory consistent?",
+    "jd-mrope": "How does M-RoPE encode multimodal position information?",
+    "jd-video-rope": "How would you encode the positions of video frames and image patches?",
+    "jd-vlm-specialist": "When would you choose a general VLM versus a specialist vision model?",
+    "jd-point-bbox": "What are the tradeoffs of predicting point coordinates rather than bounding boxes?",
+    "jd-sam2": "Explain SAM 2's approach to segmentation.",
+    "jd-synthetic-quality": "How would you evaluate the quality of algorithmically generated synthetic data?",
+    "jd-distillation": "What knowledge does distillation transfer, and how would you verify what the student learned?",
+    "mt-sft-rl-boundary": "Given reasoning SFT data, how would you decide whether reinforcement learning is still needed?",
+    "mt-rl-entry": "What evidence would indicate a model is ready for RL training?",
+    "mt-workflow-agent": "Compare workflows and agents in control flow and appropriate use cases.",
+    "mt-memory-rag": "What belongs in long-term memory versus a RAG corpus, and when would you use each?",
+    "mt-tensor-shapes": "Trace tensor shapes through inference, starting from input tokens.",
+    "mt-grpo-memory": "Which components must be counted when estimating GRPO training memory?",
+    "ali-embedding-dim": "How would you select and validate embedding dimensions for recommendation features?",
+    "ali-longtail": "How would you learn representations for and evaluate long-tail recommendation items?",
+    "ali-din-dien": "How do DIN and DIEN model user interests differently?",
+    "ali-ad-bidding": "Compare the optimization objectives of CPC, oCPM and oCPC.",
+    "ali-budget-pacing": "How would you pace ad delivery and allocate traffic under a limited budget?",
+    "ali-gsp-vcg": "What are the key differences between GSP and VCG auctions?",
+    "ali-click-fraud": "How would you detect click fraud and validate the detector?",
+    "jd-ranking-objective": "How would you choose between pointwise, pairwise and listwise ranking objectives?",
+    "jd-classification-mse": "What issues arise when using MSE to train a classifier?",
+    "jd-din-attention": "How does DIN calculate attention weights from a candidate item and behavior history?",
+    "jd-long-history": "How would you model the importance of recent actions in a long behavior sequence?",
+    "jd-auc-limit": "Which recommendation quality problems can AUC alone miss?",
+    "jd-bn-implementation": "Implement BatchNorm's training and inference steps and explain its parameters.",
+    "vivo-wfst": "How does WFST-based ASR map acoustic features to a word sequence?",
+    "vivo-hclg": "What does each component of an HCLG decoding graph represent?",
+    "vivo-force-align": "How is forced alignment used in spoken-language assessment, and what makes training difficult?",
+    "vivo-gmm-dnn": "How do GMM-HMM and DNN-HMM differ in acoustic modeling?",
+    "vivo-lpc": "How do LPC features describe speech, and how do they differ from MFCCs?",
+    "zyb-ctc-blank": "How does CTC aggregate alignment paths, and what is the blank symbol for?",
+    "zyb-timestamps": "How would you obtain word or character timestamps for a transcript?",
+    "zyb-overlap": "How would you improve recognition or separation when speakers overlap?",
+    "zyb-sensevoice": "Explain SenseVoice's modeling approach and considerations for transferring between model sizes.",
+    "zyb-dynamic-batch": "How would you batch variable-length audio in multi-node training?",
+    "zyb-ddp-dp": "How do DP and DDP organize computation and gradient synchronization?",
+    "byte-reward-collapse": "How does reward collapse affect training, and how would you diagnose it?",
+    "byte-online-offline": "Distinguish online and offline reinforcement learning. Which describes your project?",
+    "byte-reward-conflict": "How would you optimize when several reward objectives conflict?",
+    "byte-grpo-reduction": "What roles do clipping and final aggregation play in GRPO?",
+    "byte-water2d": "Compute how much rainwater a two-dimensional height grid can retain.",
+    "byte-tool-errors": "For frequent tool-call failures, how would you choose between prompting, SFT and RL?",
+    "byte-critic-rm": "Why do the reward model and critic have different roles in PPO?",
+    "byte-tool-reward": "How would you define outcome and process rewards for GRPO-based tool-use training?",
+    "byte-memory-design": "How should an agent's memory be stored, updated and retrieved?",
+    "byte-ppt-parse": "How would you improve slide parsing and verify that the improvement is real?",
+    "mt-rmsnorm": "Implement RMSNorm and compare it with LayerNorm.",
+    "mt-swiglu": "How do you implement SwiGLU's gated computation?",
+    "mt-vocab-loss": "Given vocabulary probabilities, compute a language model's single-step loss.",
+    "mt-grpo-instability": "GRPO remains unstable after SFT. How would you investigate clipping and advantage estimation?",
+    "mt-grpo-cost": "How would you compare RL quality gains against step time and compute cost?",
+    "mt-flux-lora": "Explain FLUX's generation approach and where LoRA can adapt it.",
+    "baidu-mmoe-code": "Implement MMoE experts, gates and task-specific outputs.",
+    "baidu-ple-business": "Why might a business need PLE, and how are shared and task-specific experts organized?",
+    "baidu-auc-scale": "If every predicted score is doubled, does AUC change? Why?",
+    "baidu-trpo-ppo": "How do TRPO and PPO each constrain policy updates?",
+    "baidu-kv-concurrency": "How would you manage KV cache resource use under high concurrency?",
+    "baidu-generative-rec": "What changes in a business pipeline when recommendation becomes a generative task?",
+    "baidu-search-bounds": "Find the first and last occurrence of a target in a sorted array.",
+    "ali-tp-graph": "How would you build a minimal reproduction for timeouts involving tensor parallelism and CUDA Graphs?",
+    "ali-buffer-state": "How would you reason about send and receive buffer states in multi-GPU communication?",
+    "ali-splitk-determinism": "Why can Split-K GEMM affect computational determinism?",
+    "ali-persistent-small": "Why might a persistent kernel have poor utilization on small matrices?",
+    "ali-shape-dispatch": "How would you dispatch dynamic shapes to compute paths and design a fallback?",
+    "ali-decode-sync": "How would you reduce CPU/GPU synchronization and repeated copies during decode?",
+    "ali-ring-tree": "Compare the throughput and latency tradeoffs of ring and tree AllReduce.",
+    "ali-pd-kv-transfer": "In disaggregated prefill/decode serving, how would you transfer KV caches efficiently?",
+    "iflytek-heterogeneous": "How would you adapt an inference framework to heterogeneous hardware?",
+    "iflytek-gpu-pool": "How would you balance resource isolation and utilization in GPU pooling?",
+    "iflytek-autoscale": "How would you autoscale inference services and handle model cold starts?",
+    "iflytek-engine-choice": "How would you compare vLLM and SGLang in architecture and bottlenecks?",
+    "iflytek-ai-coding": "How can AI-assisted coding help with low-level performance engineering?"
+  },
+  "sources": {
+    "nc-byte-tac": {
+      "title": "ByteDance TAC internship: second-round report",
+      "dateLabel": "2025-05-09"
+    },
+    "nc-byte-diffusion": {
+      "title": "ByteDance local services algorithms: second-round report",
+      "dateLabel": "2025-09-28"
+    },
+    "nc-byte-rec": {
+      "title": "Summer algorithm internship reports: Douyin recommendation",
+      "dateLabel": "2023-03-18; retrospective of the previous year"
+    },
+    "nc-meituan-search": {
+      "title": "Meituan search and recommendation: first two rounds",
+      "dateLabel": "2025-08-29"
+    },
+    "nc-meituan-rl": {
+      "title": "Meituan operations research: summer internship report",
+      "dateLabel": "2025-06-11"
+    },
+    "nc-multimodal": {
+      "title": "LLM internship reports: Baidu and Kuaishou",
+      "dateLabel": "2025-05-07"
+    },
+    "nc-ali-platform": {
+      "title": "Alibaba Cloud AI platform engineering: first round",
+      "dateLabel": "2025-03-04"
+    },
+    "nc-ali-agent": {
+      "title": "Alibaba AI agent application engineering: first round",
+      "dateLabel": "04-24 (year not specified)"
+    },
+    "nc-tencent-llm": {
+      "title": "Tencent LLM algorithms: first and second rounds",
+      "dateLabel": "10-02 (year not specified)"
+    },
+    "nc-tencent-infra": {
+      "title": "Tencent AI infrastructure internship: first round",
+      "dateLabel": "03-15 (year not specified)"
+    },
+    "nc-xhs-llm": {
+      "title": "Xiaohongshu LLM algorithms: first round",
+      "dateLabel": "07-28 (year not specified)"
+    },
+    "official-amazon": {
+      "title": "Amazon Applied Scientist interview preparation",
+      "dateLabel": "Publication date not specified"
+    },
+    "official-ms": {
+      "title": "Microsoft technical interviewing",
+      "dateLabel": "Publication date not specified"
+    },
+    "nc-baidu-nlp": {
+      "title": "Baidu NLP algorithm internship report",
+      "dateLabel": "2024-01-05"
+    },
+    "nc-ml-2021": {
+      "title": "Algorithm internship reports: Tencent, Alibaba and Meituan",
+      "dateLabel": "2021-04-16"
+    },
+    "nc-cv-2020": {
+      "title": "Computer vision recruiting interview roundup",
+      "dateLabel": "2020-04-10"
+    },
+    "nc-speech-2025": {
+      "title": "Speech and time-series internship interview reports",
+      "dateLabel": "2025-10-01"
+    },
+    "nc-vivo-speech": {
+      "title": "vivo speech algorithm engineering interview report",
+      "dateLabel": "2018-08-09"
+    },
+    "nc-infra-spring25": {
+      "title": "AI infrastructure internship interviews: spring 2025",
+      "dateLabel": "2025-04-17"
+    },
+    "nc-cv-intern22": {
+      "title": "Computer vision algorithm internship interviews (2022)",
+      "dateLabel": "2022-04-09"
+    },
+    "nc-cv-intern21": {
+      "title": "Computer vision algorithm internship interviews (2021)",
+      "dateLabel": "2021-08-25"
+    },
+    "nc-eleme-rl25": {
+      "title": "Ele.me machine learning summer internship report",
+      "dateLabel": "2025-06-06"
+    },
+    "nc-wxg-rl": {
+      "title": "Tencent WXG LLM summer internship interviews",
+      "dateLabel": "05-25 (year not specified)"
+    },
+    "nc-nlp-intern20": {
+      "title": "Tencent and ByteDance NLP internship reports",
+      "dateLabel": "2020-02-27"
+    },
+    "nc-dolby-speech23": {
+      "title": "Speech algorithm summer internship: Dolby Laboratories",
+      "dateLabel": "2023-03-27"
+    },
+    "nc-car-nlp22": {
+      "title": "Zeekr and BYD NLP interview reports",
+      "dateLabel": "2022-10-29"
+    },
+    "nc-tx-llm-sep": {
+      "title": "Tencent LLM algorithms: multimodal projects and training",
+      "dateLabel": "09-06 (year not specified)"
+    },
+    "nc-jd-vlm": {
+      "title": "JD LLM algorithms: vision-language models",
+      "dateLabel": "Year not specified"
+    },
+    "nc-mt-llm-july": {
+      "title": "Meituan LLM algorithms: post-training and agents",
+      "dateLabel": "07-05 (year not specified)"
+    },
+    "nc-ali-rec-march": {
+      "title": "Alibaba recommendation algorithm graduate interviews",
+      "dateLabel": "03-05 (year not specified)"
+    },
+    "nc-jd-ranking": {
+      "title": "JD recommendation internship: ranking and behavior sequences",
+      "dateLabel": "Year not specified"
+    },
+    "nc-vivo-wfst": {
+      "title": "vivo speech algorithms: static decoding and alignment",
+      "dateLabel": "2018-09-21"
+    },
+    "nc-zyb-speech25": {
+      "title": "Zuoyebang speech algorithm summer internship report",
+      "dateLabel": "Edited 2025-05-28; comments indicate earlier interviews"
+    },
+    "nc-byte-rl-collapse": {
+      "title": "ByteDance LLM internship: rewards and multi-objective training",
+      "dateLabel": "03-07 (year not specified)"
+    },
+    "nc-byte-agent-reward": {
+      "title": "ByteDance AI agent internship: tools and process rewards",
+      "dateLabel": "02-24 (year not specified)"
+    },
+    "nc-mt-posttrain25": {
+      "title": "Meituan LLM algorithms: autumn recruiting second round",
+      "dateLabel": "2025-12-18"
+    },
+    "nc-baidu-search-rounds": {
+      "title": "Baidu search algorithms: three interview rounds",
+      "dateLabel": "07-03 (year not specified)"
+    },
+    "nc-ali-infra-sep": {
+      "title": "Alibaba AI infrastructure: communication and inference debugging",
+      "dateLabel": "09-18 (year not specified)"
+    },
+    "nc-iflytek-infra26": {
+      "title": "iFLYTEK Spark inference engineering: AI infrastructure report",
+      "dateLabel": "2026-10-26"
+    }
+  }
+}
