@@ -12,7 +12,8 @@ const project: ReferenceDocument = { ...paper, id: 'project', kind: 'project', n
 const temporary: string[] = [];
 afterEach(() => temporary.splice(0).forEach((dir) => rmSync(dir, { recursive: true, force: true })));
 describe('reference imports', () => {
-  it('parses real PDF and DOCX fixtures locally', async () => {
+  // Match docparse.spec.ts: native parser cold-starts can be slow on Windows CI.
+  it('parses real PDF and DOCX fixtures locally', { timeout: 120_000 }, async () => {
     const result = await importDocuments([join(__dirname, 'fixtures/sample.pdf'), join(__dirname, 'fixtures/sample.docx')], 'project');
     expect(result.errors).toEqual([]);
     expect(result.documents).toHaveLength(2);
