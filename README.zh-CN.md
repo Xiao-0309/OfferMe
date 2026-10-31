@@ -14,6 +14,16 @@ OfferMe 是一个支持中英文的桌面面试练习与会议辅助工具。导
 
 新用户默认英文，可在设置中切换中文。详细的英文图文介绍和配置过程见 [README](README.md)、[完整配置指南](docs/GUIDE.en.md) 和 [Mac 音频配置](docs/MACOS_AUDIO.md)。
 
+## 下载安装包
+
+[**项目官方下载（GitHub Releases）**](https://github.com/Xiao-0309/OfferMe/releases/latest) · [安装说明](docs/DOWNLOAD.md#中文安装说明)
+
+当前提供 **macOS 13+、Apple Silicon（M 系列芯片）** 的 DMG 与 ZIP。打开 DMG，把 OfferMe 拖到「应用程序」即可，无需 Node.js 或开发工具。本版本使用临时签名，尚无 Apple Developer ID 签名和公证；首次打开可能需要在系统设置中单独允许，详见安装说明。
+
+安装包不包含作者的 API 密钥、私人接口、设置或会议记录。首次启动请配置自己的服务商；软件免费，API 调用可能计费。本次没有提供 Intel Mac 或 Windows 安装包。
+
+## 从源码运行
+
 ```bash
 git clone https://github.com/Xiao-0309/OfferMe.git
 cd OfferMe

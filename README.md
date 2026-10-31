@@ -56,6 +56,14 @@ Parsing happens locally. Enabled extracted text is included in AI context withou
 
 All screenshots above use synthetic materials and deterministic demo responses. They show the actual UI, not measured model quality. The illustrated background is generated inside the demo window; no desktop contents were captured.
 
+## Download for macOS
+
+[**Download OfferMe for Apple Silicon →**](https://github.com/Xiao-0309/OfferMe/releases/latest)
+
+The prebuilt DMG and ZIP require **macOS 13+ and an Apple Silicon Mac (M-series)**. Open the DMG and drag OfferMe into Applications; Node.js and developer tools are not needed. This release is ad-hoc signed, **not Apple-notarized or Developer ID signed**, so macOS may require application-specific approval. Read the [installation guide](docs/DOWNLOAD.md) before opening it.
+
+The package contains **no API keys, private endpoints, user settings or meeting history**. Enter your own providers on first launch. Intel Mac and Windows binaries are not included in this release; source setup is below.
+
 ## Run from source
 
 You need **Node.js 22.12+ (22.x)**, npm and Git, on **macOS 13+** or Windows 10+. On macOS, also install Xcode Command Line Tools with `xcode-select --install` so the audio helper can compile. Windows builds do not need Swift.
@@ -92,7 +100,7 @@ npm run screenshots   # Regenerate the illustrated documentation
 npm run dist:dir      # Unpacked desktop application
 ```
 
-Use `npm run dist:mac` on macOS for an Apple Silicon ZIP, or `npm run dist:win` on Windows for x64 NSIS/portable builds. Outputs go to `release/`. Source builds are not Apple-notarized or Windows-signed releases. See [build and installation details](docs/GUIDE.en.md#build-a-desktop-package).
+Use `npm run dist:mac` on macOS for Apple Silicon DMG and ZIP packages, or `npm run dist:win` on Windows for x64 NSIS/portable builds. Outputs go to `release/`. Source builds are not automatically notarized or signed with a developer certificate. See [build and installation details](docs/GUIDE.en.md#build-a-desktop-package).
 
 ## Your data and your providers
 

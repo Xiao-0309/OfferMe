@@ -4,7 +4,11 @@
 
 This guide covers the cloud API edition of OfferMe 0.7. You configure your own providers; OfferMe does not install speech or language models locally. Provider access, model availability and billing belong to your provider account.
 
-## 1. Install the development version
+## 1. Install OfferMe
+
+For **Apple Silicon Macs running macOS 13+**, use the [prebuilt DMG or ZIP](https://github.com/Xiao-0309/OfferMe/releases/latest). Follow the [installation and first-open guide](DOWNLOAD.md). Node.js and Xcode are unnecessary for the prebuilt app. It is ad-hoc signed, not Apple-notarized or Developer ID signed.
+
+### Run the development version
 
 Requirements:
 
@@ -181,7 +185,9 @@ npm run verify
 npm run dist:dir
 ```
 
-For distributable archives, run `npm run dist:mac` on macOS (Apple Silicon ZIP) or `npm run dist:win` on Windows (x64 installer and portable executable). Output is under `release/`. Run the packaged app without keeping a development terminal open.
+For distributable archives, run `npm run dist:mac` on macOS (Apple Silicon DMG and ZIP) or `npm run dist:win` on Windows (x64 installer and portable executable). Output is under `release/`. Run the packaged app without keeping a development terminal open.
+
+The public macOS package can be reproduced without a signing certificate using `npm run dist:mac -- --config.mac.identity=-`. This performs ad-hoc signing, not Developer ID signing or Apple notarization. A maintainer with a distribution certificate can use electron-builder's signing and notarization configuration instead.
 
 The source project does not include developer signing credentials, Apple notarization or a Windows code-signing certificate. macOS/Windows may show a trust prompt for locally built packages. Build from reviewed source and use your operating system's application-specific approval flow; do not disable system security globally.
 

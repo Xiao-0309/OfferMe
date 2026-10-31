@@ -2,6 +2,8 @@
 
 完整英文图文配置步骤见 [Setup guide](GUIDE.en.md)，项目中文介绍见 [README.zh-CN](../README.zh-CN.md)。
 
+**直接安装：** M 系列 Mac、macOS 13+ 可从 [GitHub Releases](https://github.com/Xiao-0309/OfferMe/releases/latest) 下载 DMG，拖入「应用程序」。无需安装 Node.js 或开发工具；第一次打开和签名说明见 [安装指南](DOWNLOAD.md#中文安装说明)。安装完成后从下面第 3 步开始。
+
 1. 使用 macOS 13+ 或 Windows 10+，安装 Node.js 22.12+（22.x）、Git；Mac 安装 Xcode Command Line Tools。
 2. 克隆项目后运行 `npm ci`、`npm run dev`。
 3. 首次启动可选择中文。仅模拟面试可进入高级设置，只配置文字回答 API。

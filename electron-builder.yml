@@ -33,9 +33,12 @@ extraResources:
     to: NOTICE
 mac:
   icon: build/icon.icns
+  artifactName: ${productName}-${version}-mac-${arch}.${ext}
   minimumSystemVersion: '13.0.0'
   category: public.app-category.productivity
   target:
+    - target: dmg
+      arch: [arm64]
     - target: zip
       arch: [arm64]
   extraResources:

@@ -2,7 +2,7 @@
 
 ## 0.7.0 — 2026-10-31
 
-First public OfferMe source release.
+First public OfferMe release, with source and Apple Silicon macOS packages.
 
 - Independent application identity, profile, audio route and renderer API namespace.
 - English-first UI, onboarding and answer settings; Chinese remains selectable.
@@ -14,6 +14,7 @@ First public OfferMe source release.
 - Cloud-only ASR and configurable text/vision APIs; no model downloads or local inference runtime.
 - macOS BlackHole route helper and recovery checks, plus Windows loopback support.
 - Illustrated English documentation, synthetic screenshot workflow and public-source regression checks.
+- macOS 13+ DMG and ZIP downloads, checksum files, and bilingual installation instructions; no personal API configuration is bundled.
 - Current DeepSeek model preset names; existing explicitly configured providers remain unchanged.
 - Refreshed dependencies, including Electron security patches and the test runner.
 
