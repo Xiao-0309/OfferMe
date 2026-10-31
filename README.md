@@ -114,4 +114,4 @@ Bug reports, translations, source-backed bank additions and provider compatibili
 
 ## License and acknowledgments
 
-OfferMe is maintained by [Xiao-0309](https://github.com/Xiao-0309) under [Apache-2.0](LICENSE). It has its own brand, application identity and data directory. Parts of the code derive from [MeetingCopilot](https://github.com/JWM0203/MeetingCopilot); the original attribution and modification history are preserved in [NOTICE](NOTICE) and [UPSTREAM.md](UPSTREAM.md). This project is independently maintained and is not endorsed by the upstream author or the companies named in the question bank.
+OfferMe is maintained by [Xiao-0309](https://github.com/Xiao-0309) under [Apache-2.0](LICENSE). It has its own brand, application identity and data directory.
